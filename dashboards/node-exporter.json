@@ -10,10 +10,10 @@
     "url": "/d/rYdddlPWk/node-exporter-full",
     "expires": "0001-01-01T00:00:00Z",
     "created": "2026-01-31T10:48:06Z",
-    "updated": "2026-01-31T10:48:06Z",
+    "updated": "2026-01-31T11:29:19Z",
     "updatedBy": "admin",
     "createdBy": "admin",
-    "version": 1,
+    "version": 2,
     "hasAcl": false,
     "isFolder": false,
     "apiVersion": "v0alpha1",
@@ -61,7 +61,6 @@
     },
     "editable": true,
     "fiscalYearStartMonth": 0,
-    "gnetId": 1860,
     "graphTooltip": 1,
     "id": 1,
     "links": [
@@ -116,7 +115,8 @@
               "mode": "percentage",
               "steps": [
                 {
-                  "color": "green"
+                  "color": "green",
+                  "value": 0
                 },
                 {
                   "color": "dark-yellow",
@@ -164,7 +164,7 @@
           "text": {},
           "valueMode": "color"
         },
-        "pluginVersion": "11.6.1",
+        "pluginVersion": "12.3.2",
         "targets": [
           {
             "editorMode": "code",
@@ -243,7 +243,8 @@
               "mode": "absolute",
               "steps": [
                 {
-                  "color": "rgba(50, 172, 45, 0.97)"
+                  "color": "rgba(50, 172, 45, 0.97)",
+                  "value": 0
                 },
                 {
                   "color": "rgba(237, 129, 40, 0.89)",
@@ -281,7 +282,7 @@
           "showThresholdMarkers": true,
           "sizing": "auto"
         },
-        "pluginVersion": "11.6.1",
+        "pluginVersion": "12.3.2",
         "targets": [
           {
             "editorMode": "code",
@@ -326,7 +327,8 @@
               "mode": "absolute",
               "steps": [
                 {
-                  "color": "rgba(50, 172, 45, 0.97)"
+                  "color": "rgba(50, 172, 45, 0.97)",
+                  "value": 0
                 },
                 {
                   "color": "rgba(237, 129, 40, 0.89)",
@@ -364,7 +366,7 @@
           "showThresholdMarkers": true,
           "sizing": "auto"
         },
-        "pluginVersion": "11.6.1",
+        "pluginVersion": "12.3.2",
         "targets": [
           {
             "editorMode": "code",
@@ -399,7 +401,8 @@
               "mode": "absolute",
               "steps": [
                 {
-                  "color": "rgba(50, 172, 45, 0.97)"
+                  "color": "rgba(50, 172, 45, 0.97)",
+                  "value": 0
                 },
                 {
                   "color": "rgba(237, 129, 40, 0.89)",
@@ -437,7 +440,7 @@
           "showThresholdMarkers": true,
           "sizing": "auto"
         },
-        "pluginVersion": "11.6.1",
+        "pluginVersion": "12.3.2",
         "targets": [
           {
             "editorMode": "code",
@@ -482,7 +485,8 @@
               "mode": "absolute",
               "steps": [
                 {
-                  "color": "rgba(50, 172, 45, 0.97)"
+                  "color": "rgba(50, 172, 45, 0.97)",
+                  "value": 0
                 },
                 {
                   "color": "rgba(237, 129, 40, 0.89)",
@@ -520,7 +524,7 @@
           "showThresholdMarkers": true,
           "sizing": "auto"
         },
-        "pluginVersion": "11.6.1",
+        "pluginVersion": "12.3.2",
         "targets": [
           {
             "editorMode": "code",
@@ -564,7 +568,8 @@
               "mode": "absolute",
               "steps": [
                 {
-                  "color": "rgba(50, 172, 45, 0.97)"
+                  "color": "rgba(50, 172, 45, 0.97)",
+                  "value": 0
                 },
                 {
                   "color": "rgba(237, 129, 40, 0.89)",
@@ -602,7 +607,7 @@
           "showThresholdMarkers": true,
           "sizing": "auto"
         },
-        "pluginVersion": "11.6.1",
+        "pluginVersion": "12.3.2",
         "targets": [
           {
             "editorMode": "code",
@@ -644,7 +649,8 @@
               "mode": "absolute",
               "steps": [
                 {
-                  "color": "green"
+                  "color": "green",
+                  "value": 0
                 }
               ]
             },
@@ -677,7 +683,7 @@
           "textMode": "auto",
           "wideLayout": true
         },
-        "pluginVersion": "11.6.1",
+        "pluginVersion": "12.3.2",
         "targets": [
           {
             "editorMode": "code",
@@ -719,7 +725,8 @@
               "mode": "absolute",
               "steps": [
                 {
-                  "color": "green"
+                  "color": "green",
+                  "value": 0
                 },
                 {
                   "color": "red",
@@ -756,7 +763,7 @@
           "textMode": "auto",
           "wideLayout": true
         },
-        "pluginVersion": "11.6.1",
+        "pluginVersion": "12.3.2",
         "targets": [
           {
             "editorMode": "code",
@@ -798,7 +805,8 @@
               "mode": "absolute",
               "steps": [
                 {
-                  "color": "green"
+                  "color": "green",
+                  "value": 0
                 },
                 {
                   "color": "red",
@@ -835,7 +843,7 @@
           "textMode": "auto",
           "wideLayout": true
         },
-        "pluginVersion": "11.6.1",
+        "pluginVersion": "12.3.2",
         "targets": [
           {
             "editorMode": "code",
@@ -877,7 +885,8 @@
               "mode": "absolute",
               "steps": [
                 {
-                  "color": "rgba(50, 172, 45, 0.97)"
+                  "color": "rgba(50, 172, 45, 0.97)",
+                  "value": 0
                 },
                 {
                   "color": "rgba(237, 129, 40, 0.89)",
@@ -918,7 +927,7 @@
           "textMode": "auto",
           "wideLayout": true
         },
-        "pluginVersion": "11.6.1",
+        "pluginVersion": "12.3.2",
         "targets": [
           {
             "editorMode": "code",
@@ -961,7 +970,8 @@
               "mode": "absolute",
               "steps": [
                 {
-                  "color": "green"
+                  "color": "green",
+                  "value": 0
                 },
                 {
                   "color": "red",
@@ -998,7 +1008,7 @@
           "textMode": "auto",
           "wideLayout": true
         },
-        "pluginVersion": "11.6.1",
+        "pluginVersion": "12.3.2",
         "targets": [
           {
             "editorMode": "code",
@@ -1061,6 +1071,7 @@
                 "type": "linear"
               },
               "showPoints": "never",
+              "showValues": false,
               "spanNulls": false,
               "stacking": {
                 "group": "A",
@@ -1077,7 +1088,8 @@
               "mode": "absolute",
               "steps": [
                 {
-                  "color": "green"
+                  "color": "green",
+                  "value": 0
                 }
               ]
             },
@@ -1182,7 +1194,7 @@
             "sort": "desc"
           }
         },
-        "pluginVersion": "11.6.1",
+        "pluginVersion": "12.3.2",
         "targets": [
           {
             "editorMode": "code",
@@ -1241,7 +1253,7 @@
             "step": 240
           }
         ],
-        "title": "CPU Basic",
+        "title": "CPU",
         "type": "timeseries"
       },
       {
@@ -1279,6 +1291,7 @@
                 "type": "linear"
               },
               "showPoints": "never",
+              "showValues": false,
               "spanNulls": false,
               "stacking": {
                 "group": "A",
@@ -1295,7 +1308,8 @@
               "mode": "absolute",
               "steps": [
                 {
-                  "color": "green"
+                  "color": "green",
+                  "value": 0
                 }
               ]
             },
@@ -1396,7 +1410,7 @@
             "sort": "none"
           }
         },
-        "pluginVersion": "11.6.1",
+        "pluginVersion": "12.3.2",
         "targets": [
           {
             "editorMode": "code",
@@ -1482,6 +1496,7 @@
                 "type": "linear"
               },
               "showPoints": "never",
+              "showValues": false,
               "spanNulls": false,
               "stacking": {
                 "group": "A",
@@ -1497,7 +1512,8 @@
               "mode": "absolute",
               "steps": [
                 {
-                  "color": "green"
+                  "color": "green",
+                  "value": 0
                 }
               ]
             },
@@ -1538,7 +1554,7 @@
             "sort": "none"
           }
         },
-        "pluginVersion": "11.6.1",
+        "pluginVersion": "12.3.2",
         "targets": [
           {
             "editorMode": "code",
@@ -1597,6 +1613,7 @@
                 "type": "linear"
               },
               "showPoints": "never",
+              "showValues": false,
               "spanNulls": false,
               "stacking": {
                 "group": "A",
@@ -1614,7 +1631,8 @@
               "mode": "absolute",
               "steps": [
                 {
-                  "color": "green"
+                  "color": "green",
+                  "value": 0
                 }
               ]
             },
@@ -1642,7 +1660,7 @@
             "sort": "none"
           }
         },
-        "pluginVersion": "11.6.1",
+        "pluginVersion": "12.3.2",
         "targets": [
           {
             "editorMode": "code",
@@ -2536,7 +2554,7 @@
               "h": 12,
               "w": 12,
               "x": 0,
-              "y": 433
+              "y": 973
             },
             "id": 84,
             "options": {
@@ -2655,7 +2673,7 @@
               "h": 12,
               "w": 12,
               "x": 12,
-              "y": 433
+              "y": 973
             },
             "id": 338,
             "options": {
@@ -2774,7 +2792,7 @@
               "h": 12,
               "w": 12,
               "x": 0,
-              "y": 445
+              "y": 985
             },
             "id": 229,
             "options": {
@@ -2891,7 +2909,7 @@
               "h": 12,
               "w": 12,
               "x": 12,
-              "y": 445
+              "y": 985
             },
             "id": 42,
             "options": {
@@ -2998,7 +3016,7 @@
               "h": 12,
               "w": 12,
               "x": 0,
-              "y": 457
+              "y": 997
             },
             "id": 43,
             "options": {
@@ -3117,7 +3135,7 @@
               "h": 12,
               "w": 12,
               "x": 12,
-              "y": 457
+              "y": 997
             },
             "id": 156,
             "options": {
@@ -3215,7 +3233,7 @@
               "h": 12,
               "w": 12,
               "x": 0,
-              "y": 469
+              "y": 1009
             },
             "id": 127,
             "options": {
@@ -3338,7 +3356,7 @@
               "h": 12,
               "w": 12,
               "x": 12,
-              "y": 469
+              "y": 1009
             },
             "id": 322,
             "options": {
@@ -3515,7 +3533,7 @@
               "h": 10,
               "w": 12,
               "x": 0,
-              "y": 732
+              "y": 1272
             },
             "id": 135,
             "options": {
@@ -3623,7 +3641,7 @@
               "h": 10,
               "w": 12,
               "x": 12,
-              "y": 732
+              "y": 1272
             },
             "id": 130,
             "options": {
@@ -3748,7 +3766,7 @@
               "h": 10,
               "w": 12,
               "x": 0,
-              "y": 932
+              "y": 1472
             },
             "id": 131,
             "options": {
@@ -3855,7 +3873,7 @@
               "h": 10,
               "w": 12,
               "x": 12,
-              "y": 932
+              "y": 1472
             },
             "id": 138,
             "options": {
@@ -4014,7 +4032,7 @@
               "h": 10,
               "w": 12,
               "x": 0,
-              "y": 942
+              "y": 1482
             },
             "id": 136,
             "options": {
@@ -4122,7 +4140,7 @@
               "h": 10,
               "w": 12,
               "x": 12,
-              "y": 942
+              "y": 1482
             },
             "id": 191,
             "options": {
@@ -4248,7 +4266,7 @@
               "h": 10,
               "w": 12,
               "x": 0,
-              "y": 952
+              "y": 1492
             },
             "id": 160,
             "options": {
@@ -4397,7 +4415,7 @@
               "h": 10,
               "w": 12,
               "x": 12,
-              "y": 952
+              "y": 1492
             },
             "id": 70,
             "options": {
@@ -4513,7 +4531,7 @@
               "h": 10,
               "w": 12,
               "x": 0,
-              "y": 962
+              "y": 1502
             },
             "id": 129,
             "options": {
@@ -4636,7 +4654,7 @@
               "h": 10,
               "w": 12,
               "x": 12,
-              "y": 962
+              "y": 1502
             },
             "id": 137,
             "options": {
@@ -5019,7 +5037,7 @@
               "h": 10,
               "w": 12,
               "x": 0,
-              "y": 972
+              "y": 1512
             },
             "id": 128,
             "options": {
@@ -5137,7 +5155,7 @@
               "h": 10,
               "w": 12,
               "x": 12,
-              "y": 972
+              "y": 1512
             },
             "id": 140,
             "options": {
@@ -5248,6 +5266,7 @@
                     "type": "linear"
                   },
                   "showPoints": "never",
+                  "showValues": false,
                   "spanNulls": false,
                   "stacking": {
                     "group": "A",
@@ -5263,7 +5282,8 @@
                   "mode": "absolute",
                   "steps": [
                     {
-                      "color": "green"
+                      "color": "green",
+                      "value": 0
                     }
                   ]
                 },
@@ -5288,7 +5308,7 @@
               "h": 10,
               "w": 12,
               "x": 0,
-              "y": 733
+              "y": 23
             },
             "id": 176,
             "options": {
@@ -5308,7 +5328,7 @@
                 "sort": "none"
               }
             },
-            "pluginVersion": "11.6.1",
+            "pluginVersion": "12.3.2",
             "targets": [
               {
                 "editorMode": "code",
@@ -5367,6 +5387,7 @@
                     "type": "linear"
                   },
                   "showPoints": "never",
+                  "showValues": false,
                   "spanNulls": false,
                   "stacking": {
                     "group": "A",
@@ -5382,7 +5403,8 @@
                   "mode": "absolute",
                   "steps": [
                     {
-                      "color": "green"
+                      "color": "green",
+                      "value": 0
                     }
                   ]
                 },
@@ -5407,7 +5429,7 @@
               "h": 10,
               "w": 12,
               "x": 12,
-              "y": 733
+              "y": 23
             },
             "id": 22,
             "options": {
@@ -5427,7 +5449,7 @@
                 "sort": "none"
               }
             },
-            "pluginVersion": "11.6.1",
+            "pluginVersion": "12.3.2",
             "targets": [
               {
                 "editorMode": "code",
@@ -5486,6 +5508,7 @@
                     "type": "linear"
                   },
                   "showPoints": "never",
+                  "showValues": false,
                   "spanNulls": false,
                   "stacking": {
                     "group": "A",
@@ -5502,7 +5525,8 @@
                   "mode": "absolute",
                   "steps": [
                     {
-                      "color": "green"
+                      "color": "green",
+                      "value": 0
                     }
                   ]
                 },
@@ -5551,7 +5575,7 @@
               "h": 10,
               "w": 12,
               "x": 0,
-              "y": 913
+              "y": 163
             },
             "id": 175,
             "options": {
@@ -5572,7 +5596,7 @@
                 "sort": "none"
               }
             },
-            "pluginVersion": "11.6.1",
+            "pluginVersion": "12.3.2",
             "targets": [
               {
                 "editorMode": "code",
@@ -5640,6 +5664,7 @@
                     "type": "linear"
                   },
                   "showPoints": "never",
+                  "showValues": false,
                   "spanNulls": false,
                   "stacking": {
                     "group": "A",
@@ -5656,7 +5681,8 @@
                   "mode": "absolute",
                   "steps": [
                     {
-                      "color": "green"
+                      "color": "green",
+                      "value": 0
                     }
                   ]
                 },
@@ -5684,7 +5710,7 @@
               "h": 10,
               "w": 12,
               "x": 12,
-              "y": 913
+              "y": 163
             },
             "id": 307,
             "options": {
@@ -5704,7 +5730,7 @@
                 "sort": "none"
               }
             },
-            "pluginVersion": "11.6.1",
+            "pluginVersion": "12.3.2",
             "targets": [
               {
                 "editorMode": "code",
@@ -5769,6 +5795,7 @@
                     "type": "linear"
                   },
                   "showPoints": "never",
+                  "showValues": false,
                   "spanNulls": false,
                   "stacking": {
                     "group": "A",
@@ -5784,7 +5811,8 @@
                   "mode": "absolute",
                   "steps": [
                     {
-                      "color": "green"
+                      "color": "green",
+                      "value": 0
                     }
                   ]
                 },
@@ -5796,7 +5824,7 @@
               "h": 10,
               "w": 12,
               "x": 0,
-              "y": 734
+              "y": 344
             },
             "id": 260,
             "options": {
@@ -5816,7 +5844,7 @@
                 "sort": "none"
               }
             },
-            "pluginVersion": "11.6.1",
+            "pluginVersion": "12.3.2",
             "targets": [
               {
                 "editorMode": "code",
@@ -5887,6 +5915,7 @@
                     "type": "linear"
                   },
                   "showPoints": "never",
+                  "showValues": false,
                   "spanNulls": false,
                   "stacking": {
                     "group": "A",
@@ -5902,7 +5931,8 @@
                   "mode": "absolute",
                   "steps": [
                     {
-                      "color": "green"
+                      "color": "green",
+                      "value": 0
                     }
                   ]
                 },
@@ -5914,7 +5944,7 @@
               "h": 10,
               "w": 12,
               "x": 12,
-              "y": 734
+              "y": 344
             },
             "id": 291,
             "options": {
@@ -5934,7 +5964,7 @@
                 "sort": "none"
               }
             },
-            "pluginVersion": "11.6.1",
+            "pluginVersion": "12.3.2",
             "targets": [
               {
                 "editorMode": "code",
@@ -5985,6 +6015,7 @@
                     "type": "linear"
                   },
                   "showPoints": "never",
+                  "showValues": false,
                   "spanNulls": false,
                   "stacking": {
                     "group": "A",
@@ -6000,7 +6031,8 @@
                   "mode": "absolute",
                   "steps": [
                     {
-                      "color": "green"
+                      "color": "green",
+                      "value": 0
                     }
                   ]
                 },
@@ -6012,7 +6044,7 @@
               "h": 10,
               "w": 12,
               "x": 0,
-              "y": 884
+              "y": 354
             },
             "id": 168,
             "options": {
@@ -6032,7 +6064,7 @@
                 "sort": "none"
               }
             },
-            "pluginVersion": "11.6.1",
+            "pluginVersion": "12.3.2",
             "targets": [
               {
                 "editorMode": "code",
@@ -6115,6 +6147,7 @@
                     "type": "linear"
                   },
                   "showPoints": "never",
+                  "showValues": false,
                   "spanNulls": false,
                   "stacking": {
                     "group": "A",
@@ -6130,7 +6163,8 @@
                   "mode": "absolute",
                   "steps": [
                     {
-                      "color": "green"
+                      "color": "green",
+                      "value": 0
                     }
                   ]
                 },
@@ -6142,7 +6176,7 @@
               "h": 10,
               "w": 12,
               "x": 12,
-              "y": 884
+              "y": 354
             },
             "id": 333,
             "options": {
@@ -6162,7 +6196,7 @@
                 "sort": "none"
               }
             },
-            "pluginVersion": "11.6.1",
+            "pluginVersion": "12.3.2",
             "targets": [
               {
                 "editorMode": "code",
@@ -6250,7 +6284,7 @@
               "h": 10,
               "w": 12,
               "x": 0,
-              "y": 894
+              "y": 364
             },
             "id": 334,
             "options": {
@@ -6362,7 +6396,7 @@
               "h": 10,
               "w": 12,
               "x": 12,
-              "y": 894
+              "y": 364
             },
             "id": 335,
             "options": {
@@ -6477,6 +6511,7 @@
                     "type": "linear"
                   },
                   "showPoints": "never",
+                  "showValues": false,
                   "spanNulls": false,
                   "stacking": {
                     "group": "A",
@@ -6493,7 +6528,8 @@
                   "mode": "absolute",
                   "steps": [
                     {
-                      "color": "green"
+                      "color": "green",
+                      "value": 0
                     },
                     {
                       "color": "red",
@@ -6509,7 +6545,7 @@
               "h": 10,
               "w": 12,
               "x": 0,
-              "y": 735
+              "y": 515
             },
             "id": 62,
             "options": {
@@ -6529,7 +6565,7 @@
                 "sort": "none"
               }
             },
-            "pluginVersion": "11.6.1",
+            "pluginVersion": "12.3.2",
             "targets": [
               {
                 "editorMode": "code",
@@ -6588,6 +6624,7 @@
                     "type": "linear"
                   },
                   "showPoints": "never",
+                  "showValues": false,
                   "spanNulls": false,
                   "stacking": {
                     "group": "A",
@@ -6604,7 +6641,8 @@
                   "mode": "absolute",
                   "steps": [
                     {
-                      "color": "green"
+                      "color": "green",
+                      "value": 0
                     }
                   ]
                 },
@@ -6701,7 +6739,7 @@
               "h": 10,
               "w": 12,
               "x": 12,
-              "y": 735
+              "y": 515
             },
             "id": 315,
             "options": {
@@ -6721,7 +6759,7 @@
                 "sort": "none"
               }
             },
-            "pluginVersion": "11.6.1",
+            "pluginVersion": "12.3.2",
             "targets": [
               {
                 "editorMode": "code",
@@ -6772,6 +6810,7 @@
                     "type": "linear"
                   },
                   "showPoints": "never",
+                  "showValues": false,
                   "spanNulls": false,
                   "stacking": {
                     "group": "A",
@@ -6788,7 +6827,8 @@
                   "mode": "absolute",
                   "steps": [
                     {
-                      "color": "green"
+                      "color": "green",
+                      "value": 0
                     }
                   ]
                 },
@@ -6800,7 +6840,7 @@
               "h": 10,
               "w": 12,
               "x": 0,
-              "y": 765
+              "y": 525
             },
             "id": 148,
             "options": {
@@ -6820,7 +6860,7 @@
                 "sort": "none"
               }
             },
-            "pluginVersion": "11.6.1",
+            "pluginVersion": "12.3.2",
             "targets": [
               {
                 "editorMode": "code",
@@ -6870,6 +6910,7 @@
                     "type": "linear"
                   },
                   "showPoints": "never",
+                  "showValues": false,
                   "spanNulls": false,
                   "stacking": {
                     "group": "A",
@@ -6885,7 +6926,8 @@
                   "mode": "absolute",
                   "steps": [
                     {
-                      "color": "green"
+                      "color": "green",
+                      "value": 0
                     },
                     {
                       "color": "red",
@@ -6914,7 +6956,7 @@
               "h": 10,
               "w": 12,
               "x": 12,
-              "y": 765
+              "y": 525
             },
             "id": 305,
             "options": {
@@ -6934,7 +6976,7 @@
                 "sort": "none"
               }
             },
-            "pluginVersion": "11.6.1",
+            "pluginVersion": "12.3.2",
             "targets": [
               {
                 "editorMode": "code",
@@ -7065,7 +7107,7 @@
               "h": 10,
               "w": 12,
               "x": 0,
-              "y": 775
+              "y": 535
             },
             "id": 313,
             "options": {
@@ -7204,7 +7246,7 @@
               "h": 10,
               "w": 12,
               "x": 12,
-              "y": 775
+              "y": 535
             },
             "id": 314,
             "options": {
@@ -7327,7 +7369,7 @@
               "h": 10,
               "w": 12,
               "x": 0,
-              "y": 816
+              "y": 1356
             },
             "id": 8,
             "options": {
@@ -7464,7 +7506,7 @@
               "h": 10,
               "w": 12,
               "x": 12,
-              "y": 816
+              "y": 1356
             },
             "id": 7,
             "options": {
@@ -7655,7 +7697,7 @@
               "h": 10,
               "w": 12,
               "x": 0,
-              "y": 826
+              "y": 1366
             },
             "id": 321,
             "options": {
@@ -7773,7 +7815,7 @@
               "h": 10,
               "w": 12,
               "x": 12,
-              "y": 826
+              "y": 1366
             },
             "id": 306,
             "options": {
@@ -7872,7 +7914,7 @@
               "h": 10,
               "w": 12,
               "x": 0,
-              "y": 836
+              "y": 1376
             },
             "id": 259,
             "options": {
@@ -8001,7 +8043,7 @@
               "h": 10,
               "w": 12,
               "x": 12,
-              "y": 836
+              "y": 1376
             },
             "id": 151,
             "options": {
@@ -8142,7 +8184,7 @@
               "h": 10,
               "w": 12,
               "x": 0,
-              "y": 737
+              "y": 1277
             },
             "id": 158,
             "options": {
@@ -8297,7 +8339,7 @@
               "h": 10,
               "w": 12,
               "x": 12,
-              "y": 737
+              "y": 1277
             },
             "id": 300,
             "options": {
@@ -8399,7 +8441,7 @@
               "h": 10,
               "w": 12,
               "x": 0,
-              "y": 747
+              "y": 1287
             },
             "id": 302,
             "options": {
@@ -8498,7 +8540,7 @@
               "h": 10,
               "w": 12,
               "x": 12,
-              "y": 747
+              "y": 1287
             },
             "id": 325,
             "options": {
@@ -8697,7 +8739,7 @@
               "h": 10,
               "w": 12,
               "x": 0,
-              "y": 4228
+              "y": 4768
             },
             "id": 298,
             "options": {
@@ -8836,7 +8878,7 @@
               "h": 10,
               "w": 12,
               "x": 12,
-              "y": 4228
+              "y": 4768
             },
             "id": 331,
             "options": {
@@ -8935,7 +8977,7 @@
               "h": 10,
               "w": 12,
               "x": 0,
-              "y": 4238
+              "y": 4778
             },
             "id": 297,
             "options": {
@@ -9034,7 +9076,7 @@
               "h": 10,
               "w": 12,
               "x": 12,
-              "y": 4238
+              "y": 4778
             },
             "id": 332,
             "options": {
@@ -9174,7 +9216,7 @@
               "h": 10,
               "w": 12,
               "x": 0,
-              "y": 29
+              "y": 569
             },
             "id": 9,
             "options": {
@@ -9306,7 +9348,7 @@
               "h": 10,
               "w": 12,
               "x": 12,
-              "y": 29
+              "y": 569
             },
             "id": 33,
             "options": {
@@ -9442,7 +9484,7 @@
               "h": 10,
               "w": 12,
               "x": 0,
-              "y": 389
+              "y": 929
             },
             "id": 37,
             "options": {
@@ -9565,7 +9607,7 @@
               "h": 10,
               "w": 12,
               "x": 12,
-              "y": 389
+              "y": 929
             },
             "id": 35,
             "options": {
@@ -9690,7 +9732,7 @@
               "h": 10,
               "w": 12,
               "x": 0,
-              "y": 399
+              "y": 939
             },
             "id": 133,
             "options": {
@@ -9811,7 +9853,7 @@
               "h": 10,
               "w": 12,
               "x": 12,
-              "y": 399
+              "y": 939
             },
             "id": 36,
             "options": {
@@ -9942,7 +9984,7 @@
               "h": 10,
               "w": 12,
               "x": 0,
-              "y": 409
+              "y": 949
             },
             "id": 301,
             "options": {
@@ -10073,7 +10115,7 @@
               "h": 10,
               "w": 12,
               "x": 12,
-              "y": 409
+              "y": 949
             },
             "id": 326,
             "options": {
@@ -10187,7 +10229,7 @@
               "h": 10,
               "w": 12,
               "x": 0,
-              "y": 419
+              "y": 959
             },
             "id": 34,
             "options": {
@@ -10329,7 +10371,7 @@
               "h": 10,
               "w": 12,
               "x": 0,
-              "y": 30
+              "y": 570
             },
             "id": 28,
             "options": {
@@ -10436,7 +10478,7 @@
               "h": 10,
               "w": 12,
               "x": 12,
-              "y": 30
+              "y": 570
             },
             "id": 41,
             "options": {
@@ -10535,7 +10577,7 @@
               "h": 10,
               "w": 12,
               "x": 0,
-              "y": 370
+              "y": 910
             },
             "id": 44,
             "options": {
@@ -10643,7 +10685,7 @@
               "h": 10,
               "w": 12,
               "x": 12,
-              "y": 370
+              "y": 910
             },
             "id": 219,
             "options": {
@@ -10767,7 +10809,7 @@
               "h": 10,
               "w": 12,
               "x": 0,
-              "y": 31
+              "y": 571
             },
             "id": 60,
             "options": {
@@ -10889,7 +10931,7 @@
               "h": 10,
               "w": 12,
               "x": 12,
-              "y": 31
+              "y": 571
             },
             "id": 142,
             "options": {
@@ -11009,7 +11051,7 @@
               "h": 10,
               "w": 12,
               "x": 0,
-              "y": 251
+              "y": 791
             },
             "id": 143,
             "options": {
@@ -11129,7 +11171,7 @@
               "h": 10,
               "w": 12,
               "x": 12,
-              "y": 251
+              "y": 791
             },
             "id": 141,
             "options": {
@@ -11249,7 +11291,7 @@
               "h": 10,
               "w": 12,
               "x": 0,
-              "y": 261
+              "y": 801
             },
             "id": 146,
             "options": {
@@ -11360,7 +11402,7 @@
               "h": 10,
               "w": 12,
               "x": 12,
-              "y": 261
+              "y": 801
             },
             "id": 327,
             "options": {
@@ -11471,7 +11513,7 @@
               "h": 10,
               "w": 12,
               "x": 0,
-              "y": 271
+              "y": 811
             },
             "id": 145,
             "options": {
@@ -11582,7 +11624,7 @@
               "h": 10,
               "w": 12,
               "x": 12,
-              "y": 271
+              "y": 811
             },
             "id": 144,
             "options": {
@@ -11702,7 +11744,7 @@
               "h": 10,
               "w": 12,
               "x": 0,
-              "y": 281
+              "y": 821
             },
             "id": 232,
             "options": {
@@ -11800,7 +11842,7 @@
               "h": 10,
               "w": 12,
               "x": 12,
-              "y": 281
+              "y": 821
             },
             "id": 231,
             "options": {
@@ -11899,7 +11941,7 @@
               "h": 10,
               "w": 12,
               "x": 0,
-              "y": 291
+              "y": 831
             },
             "id": 230,
             "options": {
@@ -12027,7 +12069,7 @@
               "h": 10,
               "w": 12,
               "x": 12,
-              "y": 291
+              "y": 831
             },
             "id": 61,
             "options": {
@@ -12133,7 +12175,7 @@
               "h": 10,
               "w": 12,
               "x": 0,
-              "y": 301
+              "y": 841
             },
             "id": 309,
             "options": {
@@ -12210,7 +12252,7 @@
               "h": 10,
               "w": 6,
               "x": 12,
-              "y": 301
+              "y": 841
             },
             "id": 280,
             "options": {
@@ -12283,7 +12325,7 @@
               "h": 10,
               "w": 6,
               "x": 18,
-              "y": 301
+              "y": 841
             },
             "id": 288,
             "options": {
@@ -12374,6 +12416,7 @@
                     "type": "linear"
                   },
                   "showPoints": "never",
+                  "showValues": false,
                   "spanNulls": false,
                   "stacking": {
                     "group": "A",
@@ -12390,7 +12433,8 @@
                   "mode": "absolute",
                   "steps": [
                     {
-                      "color": "green"
+                      "color": "green",
+                      "value": 0
                     }
                   ]
                 },
@@ -12423,7 +12467,7 @@
                 "sort": "none"
               }
             },
-            "pluginVersion": "11.6.1",
+            "pluginVersion": "12.3.2",
             "targets": [
               {
                 "editorMode": "code",
@@ -12504,6 +12548,7 @@
                     "type": "linear"
                   },
                   "showPoints": "never",
+                  "showValues": false,
                   "spanNulls": false,
                   "stacking": {
                     "group": "A",
@@ -12520,7 +12565,8 @@
                   "mode": "absolute",
                   "steps": [
                     {
-                      "color": "green"
+                      "color": "green",
+                      "value": 0
                     }
                   ]
                 },
@@ -12553,7 +12599,7 @@
                 "sort": "none"
               }
             },
-            "pluginVersion": "11.6.1",
+            "pluginVersion": "12.3.2",
             "targets": [
               {
                 "editorMode": "code",
@@ -12642,7 +12688,7 @@
               "h": 10,
               "w": 12,
               "x": 0,
-              "y": 42
+              "y": 122
             },
             "id": 126,
             "options": {
@@ -12742,7 +12788,7 @@
               "h": 10,
               "w": 12,
               "x": 12,
-              "y": 42
+              "y": 122
             },
             "id": 125,
             "options": {
@@ -12852,7 +12898,7 @@
               "h": 10,
               "w": 12,
               "x": 0,
-              "y": 52
+              "y": 132
             },
             "id": 220,
             "options": {
@@ -12970,7 +13016,7 @@
               "h": 10,
               "w": 12,
               "x": 12,
-              "y": 52
+              "y": 132
             },
             "id": 339,
             "options": {
@@ -13080,7 +13126,7 @@
               "h": 10,
               "w": 12,
               "x": 0,
-              "y": 62
+              "y": 142
             },
             "id": 336,
             "options": {
@@ -13202,7 +13248,7 @@
               "h": 10,
               "w": 12,
               "x": 12,
-              "y": 62
+              "y": 142
             },
             "id": 290,
             "options": {
@@ -13315,7 +13361,7 @@
               "h": 10,
               "w": 12,
               "x": 0,
-              "y": 72
+              "y": 152
             },
             "id": 310,
             "options": {
@@ -13434,7 +13480,7 @@
               "h": 10,
               "w": 12,
               "x": 12,
-              "y": 72
+              "y": 152
             },
             "id": 330,
             "options": {
@@ -13486,7 +13532,7 @@
         "type": "row"
       },
       {
-        "collapsed": true,
+        "collapsed": false,
         "gridPos": {
           "h": 1,
           "w": 24,
@@ -13494,1557 +13540,1438 @@
           "y": 32
         },
         "id": 274,
-        "panels": [
-          {
-            "datasource": {
-              "type": "prometheus",
-              "uid": "${ds_prometheus}"
-            },
-            "description": "Rate of octets sent and received at the IP layer, as reported by /proc/net/netstat",
-            "fieldConfig": {
-              "defaults": {
-                "color": {
-                  "mode": "palette-classic"
-                },
-                "custom": {
-                  "axisBorderShow": false,
-                  "axisCenteredZero": false,
-                  "axisColorMode": "text",
-                  "axisLabel": "out (-) / in (+)",
-                  "axisPlacement": "auto",
-                  "barAlignment": 0,
-                  "barWidthFactor": 0.6,
-                  "drawStyle": "line",
-                  "fillOpacity": 20,
-                  "gradientMode": "none",
-                  "hideFrom": {
-                    "legend": false,
-                    "tooltip": false,
-                    "viz": false
-                  },
-                  "insertNulls": false,
-                  "lineInterpolation": "linear",
-                  "lineWidth": 1,
-                  "pointSize": 5,
-                  "scaleDistribution": {
-                    "type": "linear"
-                  },
-                  "showPoints": "never",
-                  "spanNulls": false,
-                  "stacking": {
-                    "group": "A",
-                    "mode": "none"
-                  },
-                  "thresholdsStyle": {
-                    "mode": "off"
-                  }
-                },
-                "links": [],
-                "mappings": [],
-                "thresholds": {
-                  "mode": "absolute",
-                  "steps": [
-                    {
-                      "color": "green"
-                    }
-                  ]
-                },
-                "unit": "Bps"
-              },
-              "overrides": [
-                {
-                  "matcher": {
-                    "id": "byRegexp",
-                    "options": "/.*out.*/"
-                  },
-                  "properties": [
-                    {
-                      "id": "custom.transform",
-                      "value": "negative-Y"
-                    }
-                  ]
-                }
-              ]
-            },
-            "gridPos": {
-              "h": 10,
-              "w": 12,
-              "x": 0,
-              "y": 163
-            },
-            "id": 221,
-            "options": {
-              "legend": {
-                "calcs": [
-                  "min",
-                  "mean",
-                  "max"
-                ],
-                "displayMode": "table",
-                "placement": "bottom",
-                "showLegend": true,
-                "width": 300
-              },
-              "tooltip": {
-                "hideZeros": false,
-                "mode": "multi",
-                "sort": "none"
-              }
-            },
-            "pluginVersion": "11.6.1",
-            "targets": [
-              {
-                "editorMode": "code",
-                "expr": "irate(node_netstat_IpExt_InOctets{instance=\"$node\",job=\"$job\"}[$__rate_interval])",
-                "format": "time_series",
-                "interval": "",
-                "legendFormat": "IP Rx in",
-                "range": true,
-                "refId": "A",
-                "step": 240
-              },
-              {
-                "editorMode": "code",
-                "expr": "irate(node_netstat_IpExt_OutOctets{instance=\"$node\",job=\"$job\"}[$__rate_interval])",
-                "format": "time_series",
-                "legendFormat": "IP Tx out",
-                "range": true,
-                "refId": "B",
-                "step": 240
-              }
-            ],
-            "title": "Netstat IP In / Out Octets",
-            "type": "timeseries"
-          },
-          {
-            "datasource": {
-              "type": "prometheus",
-              "uid": "${ds_prometheus}"
-            },
-            "description": "Rate of TCP segments sent and received per second, including data and control segments",
-            "fieldConfig": {
-              "defaults": {
-                "color": {
-                  "mode": "palette-classic"
-                },
-                "custom": {
-                  "axisBorderShow": false,
-                  "axisCenteredZero": false,
-                  "axisColorMode": "text",
-                  "axisLabel": "out (-) / in (+)",
-                  "axisPlacement": "auto",
-                  "barAlignment": 0,
-                  "barWidthFactor": 0.6,
-                  "drawStyle": "line",
-                  "fillOpacity": 20,
-                  "gradientMode": "none",
-                  "hideFrom": {
-                    "legend": false,
-                    "tooltip": false,
-                    "viz": false
-                  },
-                  "insertNulls": false,
-                  "lineInterpolation": "linear",
-                  "lineWidth": 1,
-                  "pointSize": 5,
-                  "scaleDistribution": {
-                    "type": "linear"
-                  },
-                  "showPoints": "never",
-                  "spanNulls": false,
-                  "stacking": {
-                    "group": "A",
-                    "mode": "none"
-                  },
-                  "thresholdsStyle": {
-                    "mode": "off"
-                  }
-                },
-                "links": [],
-                "mappings": [],
-                "thresholds": {
-                  "mode": "absolute",
-                  "steps": [
-                    {
-                      "color": "green"
-                    },
-                    {
-                      "color": "red",
-                      "value": 80
-                    }
-                  ]
-                },
-                "unit": "pps"
-              },
-              "overrides": [
-                {
-                  "matcher": {
-                    "id": "byRegexp",
-                    "options": "/.*out.*/"
-                  },
-                  "properties": [
-                    {
-                      "id": "custom.transform",
-                      "value": "negative-Y"
-                    }
-                  ]
-                },
-                {
-                  "matcher": {
-                    "id": "byRegexp",
-                    "options": "/.*Snd.*/"
-                  },
-                  "properties": []
-                }
-              ]
-            },
-            "gridPos": {
-              "h": 10,
-              "w": 12,
-              "x": 12,
-              "y": 163
-            },
-            "id": 299,
-            "options": {
-              "legend": {
-                "calcs": [
-                  "min",
-                  "mean",
-                  "max"
-                ],
-                "displayMode": "table",
-                "placement": "bottom",
-                "showLegend": true
-              },
-              "tooltip": {
-                "hideZeros": false,
-                "mode": "multi",
-                "sort": "none"
-              }
-            },
-            "pluginVersion": "11.6.1",
-            "targets": [
-              {
-                "editorMode": "code",
-                "expr": "irate(node_netstat_Tcp_InSegs{instance=\"$node\",job=\"$job\"}[$__rate_interval])",
-                "format": "time_series",
-                "instant": false,
-                "interval": "",
-                "legendFormat": "TCP Rx in",
-                "refId": "A",
-                "step": 240
-              },
-              {
-                "editorMode": "code",
-                "expr": "irate(node_netstat_Tcp_OutSegs{instance=\"$node\",job=\"$job\"}[$__rate_interval])",
-                "format": "time_series",
-                "interval": "",
-                "legendFormat": "TCP Tx out",
-                "range": true,
-                "refId": "B",
-                "step": 240
-              }
-            ],
-            "title": "TCP In / Out",
-            "type": "timeseries"
-          },
-          {
-            "datasource": {
-              "type": "prometheus",
-              "uid": "${ds_prometheus}"
-            },
-            "description": "Rate of UDP datagrams sent and received per second, based on /proc/net/netstat",
-            "fieldConfig": {
-              "defaults": {
-                "color": {
-                  "mode": "palette-classic"
-                },
-                "custom": {
-                  "axisBorderShow": false,
-                  "axisCenteredZero": false,
-                  "axisColorMode": "text",
-                  "axisLabel": "out (-) / in (+)",
-                  "axisPlacement": "auto",
-                  "barAlignment": 0,
-                  "barWidthFactor": 0.6,
-                  "drawStyle": "line",
-                  "fillOpacity": 20,
-                  "gradientMode": "none",
-                  "hideFrom": {
-                    "legend": false,
-                    "tooltip": false,
-                    "viz": false
-                  },
-                  "insertNulls": false,
-                  "lineInterpolation": "linear",
-                  "lineWidth": 1,
-                  "pointSize": 5,
-                  "scaleDistribution": {
-                    "type": "linear"
-                  },
-                  "showPoints": "never",
-                  "spanNulls": false,
-                  "stacking": {
-                    "group": "A",
-                    "mode": "none"
-                  },
-                  "thresholdsStyle": {
-                    "mode": "off"
-                  }
-                },
-                "links": [],
-                "mappings": [],
-                "thresholds": {
-                  "mode": "absolute",
-                  "steps": [
-                    {
-                      "color": "green"
-                    }
-                  ]
-                },
-                "unit": "pps"
-              },
-              "overrides": [
-                {
-                  "matcher": {
-                    "id": "byRegexp",
-                    "options": "/.*out.*/"
-                  },
-                  "properties": [
-                    {
-                      "id": "custom.transform",
-                      "value": "negative-Y"
-                    }
-                  ]
-                }
-              ]
-            },
-            "gridPos": {
-              "h": 10,
-              "w": 12,
-              "x": 0,
-              "y": 193
-            },
-            "id": 55,
-            "options": {
-              "legend": {
-                "calcs": [
-                  "min",
-                  "mean",
-                  "max"
-                ],
-                "displayMode": "table",
-                "placement": "bottom",
-                "showLegend": true
-              },
-              "tooltip": {
-                "hideZeros": false,
-                "mode": "multi",
-                "sort": "none"
-              }
-            },
-            "pluginVersion": "11.6.1",
-            "targets": [
-              {
-                "editorMode": "code",
-                "expr": "irate(node_netstat_Udp_InDatagrams{instance=\"$node\",job=\"$job\"}[$__rate_interval])",
-                "format": "time_series",
-                "interval": "",
-                "legendFormat": "UDP Rx in",
-                "range": true,
-                "refId": "A",
-                "step": 240
-              },
-              {
-                "editorMode": "code",
-                "expr": "irate(node_netstat_Udp_OutDatagrams{instance=\"$node\",job=\"$job\"}[$__rate_interval])",
-                "format": "time_series",
-                "interval": "",
-                "legendFormat": "UDP Tx out",
-                "range": true,
-                "refId": "B",
-                "step": 240
-              }
-            ],
-            "title": "UDP In / Out",
-            "type": "timeseries"
-          },
-          {
-            "datasource": {
-              "type": "prometheus",
-              "uid": "${ds_prometheus}"
-            },
-            "description": "Number of ICMP messages sent and received per second, including error and control messages",
-            "fieldConfig": {
-              "defaults": {
-                "color": {
-                  "mode": "palette-classic"
-                },
-                "custom": {
-                  "axisBorderShow": false,
-                  "axisCenteredZero": false,
-                  "axisColorMode": "text",
-                  "axisLabel": "out (-) / in (+)",
-                  "axisPlacement": "auto",
-                  "barAlignment": 0,
-                  "barWidthFactor": 0.6,
-                  "drawStyle": "line",
-                  "fillOpacity": 20,
-                  "gradientMode": "none",
-                  "hideFrom": {
-                    "legend": false,
-                    "tooltip": false,
-                    "viz": false
-                  },
-                  "insertNulls": false,
-                  "lineInterpolation": "linear",
-                  "lineWidth": 1,
-                  "pointSize": 5,
-                  "scaleDistribution": {
-                    "type": "linear"
-                  },
-                  "showPoints": "never",
-                  "spanNulls": false,
-                  "stacking": {
-                    "group": "A",
-                    "mode": "none"
-                  },
-                  "thresholdsStyle": {
-                    "mode": "off"
-                  }
-                },
-                "links": [],
-                "mappings": [],
-                "thresholds": {
-                  "mode": "absolute",
-                  "steps": [
-                    {
-                      "color": "green"
-                    },
-                    {
-                      "color": "red",
-                      "value": 80
-                    }
-                  ]
-                },
-                "unit": "pps"
-              },
-              "overrides": [
-                {
-                  "matcher": {
-                    "id": "byRegexp",
-                    "options": "/.*out.*/"
-                  },
-                  "properties": [
-                    {
-                      "id": "custom.transform",
-                      "value": "negative-Y"
-                    }
-                  ]
-                }
-              ]
-            },
-            "gridPos": {
-              "h": 10,
-              "w": 12,
-              "x": 12,
-              "y": 193
-            },
-            "id": 115,
-            "options": {
-              "legend": {
-                "calcs": [
-                  "min",
-                  "mean",
-                  "max"
-                ],
-                "displayMode": "table",
-                "placement": "bottom",
-                "showLegend": true
-              },
-              "tooltip": {
-                "hideZeros": false,
-                "mode": "multi",
-                "sort": "none"
-              }
-            },
-            "pluginVersion": "11.6.1",
-            "targets": [
-              {
-                "editorMode": "code",
-                "expr": "irate(node_netstat_Icmp_InMsgs{instance=\"$node\",job=\"$job\"}[$__rate_interval])",
-                "format": "time_series",
-                "interval": "",
-                "legendFormat": "ICMP Rx in",
-                "range": true,
-                "refId": "A",
-                "step": 240
-              },
-              {
-                "editorMode": "code",
-                "expr": "irate(node_netstat_Icmp_OutMsgs{instance=\"$node\",job=\"$job\"}[$__rate_interval])",
-                "format": "time_series",
-                "interval": "",
-                "legendFormat": "ICMP Tx out",
-                "range": true,
-                "refId": "B",
-                "step": 240
-              }
-            ],
-            "title": "ICMP In / Out",
-            "type": "timeseries"
-          },
-          {
-            "datasource": {
-              "type": "prometheus",
-              "uid": "${ds_prometheus}"
-            },
-            "description": "Tracks various TCP error and congestion-related events, including retransmissions, timeouts, dropped connections, and buffer issues",
-            "fieldConfig": {
-              "defaults": {
-                "color": {
-                  "mode": "palette-classic"
-                },
-                "custom": {
-                  "axisBorderShow": false,
-                  "axisCenteredZero": false,
-                  "axisColorMode": "text",
-                  "axisLabel": "",
-                  "axisPlacement": "auto",
-                  "barAlignment": 0,
-                  "barWidthFactor": 0.6,
-                  "drawStyle": "line",
-                  "fillOpacity": 20,
-                  "gradientMode": "none",
-                  "hideFrom": {
-                    "legend": false,
-                    "tooltip": false,
-                    "viz": false
-                  },
-                  "insertNulls": false,
-                  "lineInterpolation": "linear",
-                  "lineWidth": 1,
-                  "pointSize": 5,
-                  "scaleDistribution": {
-                    "type": "linear"
-                  },
-                  "showPoints": "never",
-                  "spanNulls": false,
-                  "stacking": {
-                    "group": "A",
-                    "mode": "none"
-                  },
-                  "thresholdsStyle": {
-                    "mode": "off"
-                  }
-                },
-                "links": [],
-                "mappings": [],
-                "min": 0,
-                "thresholds": {
-                  "mode": "absolute",
-                  "steps": [
-                    {
-                      "color": "green"
-                    }
-                  ]
-                },
-                "unit": "pps"
-              },
-              "overrides": []
-            },
-            "gridPos": {
-              "h": 10,
-              "w": 12,
-              "x": 0,
-              "y": 203
-            },
-            "id": 104,
-            "options": {
-              "legend": {
-                "calcs": [
-                  "min",
-                  "mean",
-                  "max"
-                ],
-                "displayMode": "table",
-                "placement": "bottom",
-                "showLegend": true
-              },
-              "tooltip": {
-                "hideZeros": false,
-                "mode": "multi",
-                "sort": "none"
-              }
-            },
-            "pluginVersion": "11.6.1",
-            "targets": [
-              {
-                "editorMode": "code",
-                "expr": "irate(node_netstat_TcpExt_ListenOverflows{instance=\"$node\",job=\"$job\"}[$__rate_interval])",
-                "format": "time_series",
-                "interval": "",
-                "legendFormat": "Listen Overflows",
-                "range": true,
-                "refId": "A",
-                "step": 240
-              },
-              {
-                "editorMode": "code",
-                "expr": "irate(node_netstat_TcpExt_ListenDrops{instance=\"$node\",job=\"$job\"}[$__rate_interval])",
-                "format": "time_series",
-                "interval": "",
-                "legendFormat": "Listen Drops",
-                "range": true,
-                "refId": "B",
-                "step": 240
-              },
-              {
-                "editorMode": "code",
-                "expr": "irate(node_netstat_TcpExt_TCPSynRetrans{instance=\"$node\",job=\"$job\"}[$__rate_interval])",
-                "format": "time_series",
-                "interval": "",
-                "legendFormat": "SYN Retransmits",
-                "range": true,
-                "refId": "C",
-                "step": 240
-              },
-              {
-                "editorMode": "code",
-                "expr": "irate(node_netstat_Tcp_RetransSegs{instance=\"$node\",job=\"$job\"}[$__rate_interval])",
-                "interval": "",
-                "legendFormat": "Segment Retransmits",
-                "range": true,
-                "refId": "D"
-              },
-              {
-                "editorMode": "code",
-                "expr": "irate(node_netstat_Tcp_InErrs{instance=\"$node\",job=\"$job\"}[$__rate_interval])",
-                "interval": "",
-                "legendFormat": "Receive Errors",
-                "range": true,
-                "refId": "E"
-              },
-              {
-                "editorMode": "code",
-                "expr": "irate(node_netstat_Tcp_OutRsts{instance=\"$node\",job=\"$job\"}[$__rate_interval])",
-                "interval": "",
-                "legendFormat": "RST Sent",
-                "range": true,
-                "refId": "F"
-              },
-              {
-                "editorMode": "code",
-                "expr": "irate(node_netstat_TcpExt_TCPRcvQDrop{instance=\"$node\",job=\"$job\"}[$__rate_interval])",
-                "interval": "",
-                "legendFormat": "Receive Queue Drops",
-                "range": true,
-                "refId": "G"
-              },
-              {
-                "editorMode": "code",
-                "expr": "irate(node_netstat_TcpExt_TCPOFOQueue{instance=\"$node\",job=\"$job\"}[$__rate_interval])",
-                "interval": "",
-                "legendFormat": "Out-of-order Queued",
-                "range": true,
-                "refId": "H"
-              },
-              {
-                "editorMode": "code",
-                "expr": "irate(node_netstat_TcpExt_TCPTimeouts{instance=\"$node\",job=\"$job\"}[$__rate_interval])",
-                "interval": "",
-                "legendFormat": "TCP Timeouts",
-                "range": true,
-                "refId": "I"
-              }
-            ],
-            "title": "TCP Errors",
-            "type": "timeseries"
-          },
-          {
-            "datasource": {
-              "type": "prometheus",
-              "uid": "${ds_prometheus}"
-            },
-            "description": "Rate of UDP and UDPLite datagram delivery errors, including missing listeners, buffer overflows, and protocol-specific issues",
-            "fieldConfig": {
-              "defaults": {
-                "color": {
-                  "mode": "palette-classic"
-                },
-                "custom": {
-                  "axisBorderShow": false,
-                  "axisCenteredZero": false,
-                  "axisColorMode": "text",
-                  "axisLabel": "",
-                  "axisPlacement": "auto",
-                  "barAlignment": 0,
-                  "barWidthFactor": 0.6,
-                  "drawStyle": "line",
-                  "fillOpacity": 20,
-                  "gradientMode": "none",
-                  "hideFrom": {
-                    "legend": false,
-                    "tooltip": false,
-                    "viz": false
-                  },
-                  "insertNulls": false,
-                  "lineInterpolation": "linear",
-                  "lineWidth": 1,
-                  "pointSize": 5,
-                  "scaleDistribution": {
-                    "type": "linear"
-                  },
-                  "showPoints": "never",
-                  "spanNulls": false,
-                  "stacking": {
-                    "group": "A",
-                    "mode": "none"
-                  },
-                  "thresholdsStyle": {
-                    "mode": "off"
-                  }
-                },
-                "links": [],
-                "mappings": [],
-                "thresholds": {
-                  "mode": "absolute",
-                  "steps": [
-                    {
-                      "color": "green"
-                    },
-                    {
-                      "color": "red",
-                      "value": 80
-                    }
-                  ]
-                },
-                "unit": "pps"
-              },
-              "overrides": []
-            },
-            "gridPos": {
-              "h": 10,
-              "w": 12,
-              "x": 12,
-              "y": 203
-            },
-            "id": 109,
-            "options": {
-              "legend": {
-                "calcs": [
-                  "min",
-                  "mean",
-                  "max"
-                ],
-                "displayMode": "table",
-                "placement": "bottom",
-                "showLegend": true
-              },
-              "tooltip": {
-                "hideZeros": false,
-                "mode": "multi",
-                "sort": "none"
-              }
-            },
-            "pluginVersion": "11.6.1",
-            "targets": [
-              {
-                "editorMode": "code",
-                "expr": "irate(node_netstat_Udp_InErrors{instance=\"$node\",job=\"$job\"}[$__rate_interval])",
-                "format": "time_series",
-                "interval": "",
-                "legendFormat": "UDP Rx in Errors",
-                "range": true,
-                "refId": "A",
-                "step": 240
-              },
-              {
-                "editorMode": "code",
-                "expr": "irate(node_netstat_Udp_NoPorts{instance=\"$node\",job=\"$job\"}[$__rate_interval])",
-                "format": "time_series",
-                "interval": "",
-                "legendFormat": "UDP No Listener",
-                "range": true,
-                "refId": "B",
-                "step": 240
-              },
-              {
-                "editorMode": "code",
-                "expr": "irate(node_netstat_UdpLite_InErrors{instance=\"$node\",job=\"$job\"}[$__rate_interval])",
-                "interval": "",
-                "legendFormat": "UDPLite Rx in Errors",
-                "range": true,
-                "refId": "C"
-              },
-              {
-                "editorMode": "code",
-                "expr": "irate(node_netstat_Udp_RcvbufErrors{instance=\"$node\",job=\"$job\"}[$__rate_interval])",
-                "format": "time_series",
-                "interval": "",
-                "legendFormat": "UDP Rx in Buffer Errors",
-                "range": true,
-                "refId": "D",
-                "step": 240
-              },
-              {
-                "editorMode": "code",
-                "expr": "irate(node_netstat_Udp_SndbufErrors{instance=\"$node\",job=\"$job\"}[$__rate_interval])",
-                "format": "time_series",
-                "interval": "",
-                "legendFormat": "UDP Tx out Buffer Errors",
-                "range": true,
-                "refId": "E",
-                "step": 240
-              }
-            ],
-            "title": "UDP Errors",
-            "type": "timeseries"
-          },
-          {
-            "datasource": {
-              "type": "prometheus",
-              "uid": "${ds_prometheus}"
-            },
-            "description": "Rate of incoming ICMP messages that contained protocol-specific errors, such as bad checksums or invalid lengths",
-            "fieldConfig": {
-              "defaults": {
-                "color": {
-                  "mode": "palette-classic"
-                },
-                "custom": {
-                  "axisBorderShow": false,
-                  "axisCenteredZero": false,
-                  "axisColorMode": "text",
-                  "axisLabel": "out (-) / in (+)",
-                  "axisPlacement": "auto",
-                  "barAlignment": 0,
-                  "barWidthFactor": 0.6,
-                  "drawStyle": "line",
-                  "fillOpacity": 20,
-                  "gradientMode": "none",
-                  "hideFrom": {
-                    "legend": false,
-                    "tooltip": false,
-                    "viz": false
-                  },
-                  "insertNulls": false,
-                  "lineInterpolation": "linear",
-                  "lineWidth": 1,
-                  "pointSize": 5,
-                  "scaleDistribution": {
-                    "type": "linear"
-                  },
-                  "showPoints": "never",
-                  "spanNulls": false,
-                  "stacking": {
-                    "group": "A",
-                    "mode": "none"
-                  },
-                  "thresholdsStyle": {
-                    "mode": "off"
-                  }
-                },
-                "links": [],
-                "mappings": [],
-                "thresholds": {
-                  "mode": "absolute",
-                  "steps": [
-                    {
-                      "color": "green"
-                    }
-                  ]
-                },
-                "unit": "pps"
-              },
-              "overrides": [
-                {
-                  "matcher": {
-                    "id": "byRegexp",
-                    "options": "/.*out.*/"
-                  },
-                  "properties": [
-                    {
-                      "id": "custom.transform",
-                      "value": "negative-Y"
-                    }
-                  ]
-                }
-              ]
-            },
-            "gridPos": {
-              "h": 10,
-              "w": 12,
-              "x": 0,
-              "y": 213
-            },
-            "id": 50,
-            "options": {
-              "legend": {
-                "calcs": [
-                  "min",
-                  "mean",
-                  "max"
-                ],
-                "displayMode": "table",
-                "placement": "bottom",
-                "showLegend": true
-              },
-              "tooltip": {
-                "hideZeros": false,
-                "mode": "multi",
-                "sort": "none"
-              }
-            },
-            "pluginVersion": "11.6.1",
-            "targets": [
-              {
-                "editorMode": "code",
-                "expr": "irate(node_netstat_Icmp_InErrors{instance=\"$node\",job=\"$job\"}[$__rate_interval])",
-                "format": "time_series",
-                "interval": "",
-                "legendFormat": "ICMP Rx In",
-                "range": true,
-                "refId": "A",
-                "step": 240
-              }
-            ],
-            "title": "ICMP Errors",
-            "type": "timeseries"
-          },
-          {
-            "datasource": {
-              "type": "prometheus",
-              "uid": "${ds_prometheus}"
-            },
-            "description": "Rate of TCP SYN cookies sent, validated, and failed. These are used to protect against SYN flood attacks and manage TCP handshake resources under load",
-            "fieldConfig": {
-              "defaults": {
-                "color": {
-                  "mode": "palette-classic"
-                },
-                "custom": {
-                  "axisBorderShow": false,
-                  "axisCenteredZero": false,
-                  "axisColorMode": "text",
-                  "axisLabel": "",
-                  "axisPlacement": "auto",
-                  "barAlignment": 0,
-                  "barWidthFactor": 0.6,
-                  "drawStyle": "line",
-                  "fillOpacity": 20,
-                  "gradientMode": "none",
-                  "hideFrom": {
-                    "legend": false,
-                    "tooltip": false,
-                    "viz": false
-                  },
-                  "insertNulls": false,
-                  "lineInterpolation": "linear",
-                  "lineWidth": 1,
-                  "pointSize": 5,
-                  "scaleDistribution": {
-                    "type": "linear"
-                  },
-                  "showPoints": "never",
-                  "spanNulls": false,
-                  "stacking": {
-                    "group": "A",
-                    "mode": "none"
-                  },
-                  "thresholdsStyle": {
-                    "mode": "off"
-                  }
-                },
-                "links": [],
-                "mappings": [],
-                "thresholds": {
-                  "mode": "absolute",
-                  "steps": [
-                    {
-                      "color": "green"
-                    }
-                  ]
-                },
-                "unit": "eps"
-              },
-              "overrides": [
-                {
-                  "matcher": {
-                    "id": "byRegexp",
-                    "options": "/.*Failed.*/"
-                  },
-                  "properties": [
-                    {
-                      "id": "color",
-                      "value": {
-                        "fixedColor": "dark-red",
-                        "mode": "fixed"
-                      }
-                    }
-                  ]
-                }
-              ]
-            },
-            "gridPos": {
-              "h": 10,
-              "w": 12,
-              "x": 12,
-              "y": 213
-            },
-            "id": 91,
-            "options": {
-              "legend": {
-                "calcs": [
-                  "min",
-                  "mean",
-                  "max"
-                ],
-                "displayMode": "table",
-                "placement": "bottom",
-                "showLegend": true
-              },
-              "tooltip": {
-                "hideZeros": false,
-                "mode": "multi",
-                "sort": "none"
-              }
-            },
-            "pluginVersion": "11.6.1",
-            "targets": [
-              {
-                "editorMode": "code",
-                "expr": "irate(node_netstat_TcpExt_SyncookiesFailed{instance=\"$node\",job=\"$job\"}[$__rate_interval])",
-                "format": "time_series",
-                "interval": "",
-                "legendFormat": "SYN Cookies Failed",
-                "range": true,
-                "refId": "A",
-                "step": 240
-              },
-              {
-                "editorMode": "code",
-                "expr": "irate(node_netstat_TcpExt_SyncookiesRecv{instance=\"$node\",job=\"$job\"}[$__rate_interval])",
-                "format": "time_series",
-                "interval": "",
-                "legendFormat": "SYN Cookies Validated",
-                "range": true,
-                "refId": "B",
-                "step": 240
-              },
-              {
-                "editorMode": "code",
-                "expr": "irate(node_netstat_TcpExt_SyncookiesSent{instance=\"$node\",job=\"$job\"}[$__rate_interval])",
-                "format": "time_series",
-                "interval": "",
-                "legendFormat": "SYN Cookies Sent",
-                "range": true,
-                "refId": "C",
-                "step": 240
-              }
-            ],
-            "title": "TCP SynCookie",
-            "type": "timeseries"
-          },
-          {
-            "datasource": {
-              "type": "prometheus",
-              "uid": "${ds_prometheus}"
-            },
-            "description": "Number of currently established TCP connections and the system's max supported limit. On Linux, MaxConn may return -1 to indicate a dynamic/unlimited configuration",
-            "fieldConfig": {
-              "defaults": {
-                "color": {
-                  "mode": "palette-classic"
-                },
-                "custom": {
-                  "axisBorderShow": false,
-                  "axisCenteredZero": false,
-                  "axisColorMode": "text",
-                  "axisLabel": "",
-                  "axisPlacement": "auto",
-                  "barAlignment": 0,
-                  "barWidthFactor": 0.6,
-                  "drawStyle": "line",
-                  "fillOpacity": 20,
-                  "gradientMode": "none",
-                  "hideFrom": {
-                    "legend": false,
-                    "tooltip": false,
-                    "viz": false
-                  },
-                  "insertNulls": false,
-                  "lineInterpolation": "linear",
-                  "lineWidth": 1,
-                  "pointSize": 5,
-                  "scaleDistribution": {
-                    "type": "linear"
-                  },
-                  "showPoints": "never",
-                  "spanNulls": false,
-                  "stacking": {
-                    "group": "A",
-                    "mode": "none"
-                  },
-                  "thresholdsStyle": {
-                    "mode": "off"
-                  }
-                },
-                "links": [],
-                "mappings": [],
-                "min": 0,
-                "thresholds": {
-                  "mode": "absolute",
-                  "steps": [
-                    {
-                      "color": "green"
-                    }
-                  ]
-                },
-                "unit": "short"
-              },
-              "overrides": [
-                {
-                  "matcher": {
-                    "id": "byRegexp",
-                    "options": "/.*Max*./"
-                  },
-                  "properties": [
-                    {
-                      "id": "color",
-                      "value": {
-                        "fixedColor": "#890F02",
-                        "mode": "fixed"
-                      }
-                    },
-                    {
-                      "id": "custom.fillOpacity",
-                      "value": 0
-                    },
-                    {
-                      "id": "custom.lineStyle",
-                      "value": {
-                        "dash": [
-                          10,
-                          10
-                        ],
-                        "fill": "dash"
-                      }
-                    }
-                  ]
-                }
-              ]
-            },
-            "gridPos": {
-              "h": 10,
-              "w": 12,
-              "x": 0,
-              "y": 223
-            },
-            "id": 85,
-            "options": {
-              "legend": {
-                "calcs": [
-                  "min",
-                  "mean",
-                  "max"
-                ],
-                "displayMode": "table",
-                "placement": "bottom",
-                "showLegend": true
-              },
-              "tooltip": {
-                "hideZeros": false,
-                "mode": "multi",
-                "sort": "none"
-              }
-            },
-            "pluginVersion": "11.6.1",
-            "targets": [
-              {
-                "editorMode": "code",
-                "expr": "node_netstat_Tcp_CurrEstab{instance=\"$node\",job=\"$job\"}",
-                "format": "time_series",
-                "interval": "",
-                "legendFormat": "Current Connections",
-                "range": true,
-                "refId": "A",
-                "step": 240
-              },
-              {
-                "editorMode": "code",
-                "expr": "node_netstat_Tcp_MaxConn{instance=\"$node\",job=\"$job\"}",
-                "format": "time_series",
-                "interval": "",
-                "legendFormat": "Max Connections",
-                "range": true,
-                "refId": "B",
-                "step": 240
-              }
-            ],
-            "title": "TCP Connections",
-            "type": "timeseries"
-          },
-          {
-            "datasource": {
-              "type": "prometheus",
-              "uid": "${ds_prometheus}"
-            },
-            "description": "Number of UDP packets currently queued in the receive (RX) and transmit (TX) buffers. A growing queue may indicate a bottleneck",
-            "fieldConfig": {
-              "defaults": {
-                "color": {
-                  "mode": "palette-classic"
-                },
-                "custom": {
-                  "axisBorderShow": false,
-                  "axisCenteredZero": false,
-                  "axisColorMode": "text",
-                  "axisLabel": "",
-                  "axisPlacement": "auto",
-                  "barAlignment": 0,
-                  "barWidthFactor": 0.6,
-                  "drawStyle": "line",
-                  "fillOpacity": 20,
-                  "gradientMode": "none",
-                  "hideFrom": {
-                    "legend": false,
-                    "tooltip": false,
-                    "viz": false
-                  },
-                  "insertNulls": false,
-                  "lineInterpolation": "linear",
-                  "lineWidth": 1,
-                  "pointSize": 5,
-                  "scaleDistribution": {
-                    "type": "linear"
-                  },
-                  "showPoints": "never",
-                  "spanNulls": false,
-                  "stacking": {
-                    "group": "A",
-                    "mode": "none"
-                  },
-                  "thresholdsStyle": {
-                    "mode": "off"
-                  }
-                },
-                "links": [],
-                "mappings": [],
-                "thresholds": {
-                  "mode": "absolute",
-                  "steps": [
-                    {
-                      "color": "green"
-                    }
-                  ]
-                },
-                "unit": "short"
-              },
-              "overrides": []
-            },
-            "gridPos": {
-              "h": 10,
-              "w": 12,
-              "x": 12,
-              "y": 223
-            },
-            "id": 337,
-            "options": {
-              "legend": {
-                "calcs": [
-                  "min",
-                  "mean",
-                  "max"
-                ],
-                "displayMode": "table",
-                "placement": "bottom",
-                "showLegend": true
-              },
-              "tooltip": {
-                "hideZeros": false,
-                "mode": "multi",
-                "sort": "none"
-              }
-            },
-            "pluginVersion": "11.6.1",
-            "targets": [
-              {
-                "editorMode": "code",
-                "expr": "node_udp_queues{instance=\"$node\",job=\"$job\",ip=\"v4\",queue=\"rx\"}",
-                "format": "time_series",
-                "interval": "",
-                "legendFormat": "UDP Rx in Queue",
-                "range": true,
-                "refId": "A",
-                "step": 240
-              },
-              {
-                "editorMode": "code",
-                "expr": "node_udp_queues{instance=\"$node\",job=\"$job\",ip=\"v4\",queue=\"tx\"}",
-                "format": "time_series",
-                "interval": "",
-                "legendFormat": "UDP Tx out Queue",
-                "range": true,
-                "refId": "B",
-                "step": 240
-              }
-            ],
-            "title": "UDP Queue",
-            "type": "timeseries"
-          },
-          {
-            "datasource": {
-              "type": "prometheus",
-              "uid": "${ds_prometheus}"
-            },
-            "description": "Rate of TCP connection initiations per second. 'Active' opens are initiated by this host. 'Passive' opens are accepted from incoming connections",
-            "fieldConfig": {
-              "defaults": {
-                "color": {
-                  "mode": "palette-classic"
-                },
-                "custom": {
-                  "axisBorderShow": false,
-                  "axisCenteredZero": false,
-                  "axisColorMode": "text",
-                  "axisLabel": "",
-                  "axisPlacement": "auto",
-                  "barAlignment": 0,
-                  "barWidthFactor": 0.6,
-                  "drawStyle": "line",
-                  "fillOpacity": 20,
-                  "gradientMode": "none",
-                  "hideFrom": {
-                    "legend": false,
-                    "tooltip": false,
-                    "viz": false
-                  },
-                  "insertNulls": false,
-                  "lineInterpolation": "linear",
-                  "lineWidth": 1,
-                  "pointSize": 5,
-                  "scaleDistribution": {
-                    "type": "linear"
-                  },
-                  "showPoints": "never",
-                  "spanNulls": false,
-                  "stacking": {
-                    "group": "A",
-                    "mode": "none"
-                  },
-                  "thresholdsStyle": {
-                    "mode": "off"
-                  }
-                },
-                "links": [],
-                "mappings": [],
-                "min": 0,
-                "thresholds": {
-                  "mode": "absolute",
-                  "steps": [
-                    {
-                      "color": "green"
-                    }
-                  ]
-                },
-                "unit": "eps"
-              },
-              "overrides": []
-            },
-            "gridPos": {
-              "h": 10,
-              "w": 12,
-              "x": 0,
-              "y": 233
-            },
-            "id": 82,
-            "options": {
-              "legend": {
-                "calcs": [
-                  "min",
-                  "mean",
-                  "max"
-                ],
-                "displayMode": "table",
-                "placement": "bottom",
-                "showLegend": true
-              },
-              "tooltip": {
-                "hideZeros": false,
-                "mode": "multi",
-                "sort": "none"
-              }
-            },
-            "pluginVersion": "11.6.1",
-            "targets": [
-              {
-                "editorMode": "code",
-                "expr": "irate(node_netstat_Tcp_ActiveOpens{instance=\"$node\",job=\"$job\"}[$__rate_interval])",
-                "format": "time_series",
-                "interval": "",
-                "legendFormat": "Active Opens",
-                "range": true,
-                "refId": "A",
-                "step": 240
-              },
-              {
-                "editorMode": "code",
-                "expr": "irate(node_netstat_Tcp_PassiveOpens{instance=\"$node\",job=\"$job\"}[$__rate_interval])",
-                "format": "time_series",
-                "interval": "",
-                "legendFormat": "Passive Opens",
-                "range": true,
-                "refId": "B",
-                "step": 240
-              }
-            ],
-            "title": "TCP Direct Transition",
-            "type": "timeseries"
-          },
-          {
-            "datasource": {
-              "type": "prometheus",
-              "uid": "${ds_prometheus}"
-            },
-            "description": "Number of TCP sockets in key connection states. Requires the --collector.tcpstat flag on node_exporter",
-            "fieldConfig": {
-              "defaults": {
-                "color": {
-                  "mode": "palette-classic"
-                },
-                "custom": {
-                  "axisBorderShow": false,
-                  "axisCenteredZero": false,
-                  "axisColorMode": "text",
-                  "axisLabel": "",
-                  "axisPlacement": "auto",
-                  "barAlignment": 0,
-                  "barWidthFactor": 0.6,
-                  "drawStyle": "line",
-                  "fillOpacity": 20,
-                  "gradientMode": "none",
-                  "hideFrom": {
-                    "legend": false,
-                    "tooltip": false,
-                    "viz": false
-                  },
-                  "insertNulls": false,
-                  "lineInterpolation": "linear",
-                  "lineWidth": 1,
-                  "pointSize": 5,
-                  "scaleDistribution": {
-                    "type": "linear"
-                  },
-                  "showPoints": "never",
-                  "spanNulls": false,
-                  "stacking": {
-                    "group": "A",
-                    "mode": "none"
-                  },
-                  "thresholdsStyle": {
-                    "mode": "off"
-                  }
-                },
-                "links": [],
-                "mappings": [],
-                "min": 0,
-                "noValue": "0",
-                "thresholds": {
-                  "mode": "absolute",
-                  "steps": [
-                    {
-                      "color": "green"
-                    }
-                  ]
-                },
-                "unit": "short"
-              },
-              "overrides": []
-            },
-            "gridPos": {
-              "h": 10,
-              "w": 12,
-              "x": 12,
-              "y": 233
-            },
-            "id": 320,
-            "options": {
-              "legend": {
-                "calcs": [
-                  "min",
-                  "mean",
-                  "max"
-                ],
-                "displayMode": "table",
-                "placement": "bottom",
-                "showLegend": true
-              },
-              "tooltip": {
-                "hideZeros": false,
-                "mode": "multi",
-                "sort": "none"
-              }
-            },
-            "pluginVersion": "11.6.1",
-            "targets": [
-              {
-                "editorMode": "code",
-                "expr": "node_tcp_connection_states{state=\"established\",instance=\"$node\",job=\"$job\"}",
-                "format": "time_series",
-                "interval": "",
-                "legendFormat": "Established",
-                "range": true,
-                "refId": "A",
-                "step": 240
-              },
-              {
-                "editorMode": "code",
-                "expr": "node_tcp_connection_states{state=\"fin_wait2\",instance=\"$node\",job=\"$job\"}",
-                "format": "time_series",
-                "interval": "",
-                "legendFormat": "FIN_WAIT2",
-                "range": true,
-                "refId": "B",
-                "step": 240
-              },
-              {
-                "editorMode": "code",
-                "expr": "node_tcp_connection_states{state=\"listen\",instance=\"$node\",job=\"$job\"}",
-                "format": "time_series",
-                "interval": "",
-                "legendFormat": "Listen",
-                "range": true,
-                "refId": "C",
-                "step": 240
-              },
-              {
-                "editorMode": "code",
-                "expr": "node_tcp_connection_states{state=\"time_wait\",instance=\"$node\",job=\"$job\"}",
-                "format": "time_series",
-                "interval": "",
-                "legendFormat": "TIME_WAIT",
-                "range": true,
-                "refId": "D",
-                "step": 240
-              },
-              {
-                "editorMode": "code",
-                "expr": "node_tcp_connection_states{state=\"close_wait\", instance=\"$node\", job=\"$job\"}",
-                "format": "time_series",
-                "interval": "",
-                "legendFormat": "CLOSE_WAIT",
-                "range": true,
-                "refId": "E",
-                "step": 240
-              }
-            ],
-            "title": "TCP Stat",
-            "type": "timeseries"
-          }
-        ],
+        "panels": [],
         "title": "Network Netstat",
         "type": "row"
+      },
+      {
+        "datasource": {
+          "type": "prometheus",
+          "uid": "${ds_prometheus}"
+        },
+        "description": "Rate of octets sent and received at the IP layer, as reported by /proc/net/netstat",
+        "fieldConfig": {
+          "defaults": {
+            "color": {
+              "mode": "palette-classic"
+            },
+            "custom": {
+              "axisBorderShow": false,
+              "axisCenteredZero": false,
+              "axisColorMode": "text",
+              "axisLabel": "out (-) / in (+)",
+              "axisPlacement": "auto",
+              "barAlignment": 0,
+              "barWidthFactor": 0.6,
+              "drawStyle": "line",
+              "fillOpacity": 20,
+              "gradientMode": "none",
+              "hideFrom": {
+                "legend": false,
+                "tooltip": false,
+                "viz": false
+              },
+              "insertNulls": false,
+              "lineInterpolation": "linear",
+              "lineWidth": 1,
+              "pointSize": 5,
+              "scaleDistribution": {
+                "type": "linear"
+              },
+              "showPoints": "never",
+              "showValues": false,
+              "spanNulls": false,
+              "stacking": {
+                "group": "A",
+                "mode": "none"
+              },
+              "thresholdsStyle": {
+                "mode": "off"
+              }
+            },
+            "links": [],
+            "mappings": [],
+            "thresholds": {
+              "mode": "absolute",
+              "steps": [
+                {
+                  "color": "green",
+                  "value": 0
+                }
+              ]
+            },
+            "unit": "Bps"
+          },
+          "overrides": [
+            {
+              "matcher": {
+                "id": "byRegexp",
+                "options": "/.*out.*/"
+              },
+              "properties": [
+                {
+                  "id": "custom.transform",
+                  "value": "negative-Y"
+                }
+              ]
+            }
+          ]
+        },
+        "gridPos": {
+          "h": 10,
+          "w": 12,
+          "x": 0,
+          "y": 33
+        },
+        "id": 221,
+        "options": {
+          "legend": {
+            "calcs": [
+              "min",
+              "mean",
+              "max"
+            ],
+            "displayMode": "table",
+            "placement": "bottom",
+            "showLegend": true,
+            "width": 300
+          },
+          "tooltip": {
+            "hideZeros": false,
+            "mode": "multi",
+            "sort": "none"
+          }
+        },
+        "pluginVersion": "12.3.2",
+        "targets": [
+          {
+            "editorMode": "code",
+            "expr": "irate(node_netstat_IpExt_InOctets{instance=\"$node\",job=\"$job\"}[$__rate_interval])",
+            "format": "time_series",
+            "interval": "",
+            "legendFormat": "IP Rx in",
+            "range": true,
+            "refId": "A",
+            "step": 240
+          },
+          {
+            "editorMode": "code",
+            "expr": "irate(node_netstat_IpExt_OutOctets{instance=\"$node\",job=\"$job\"}[$__rate_interval])",
+            "format": "time_series",
+            "legendFormat": "IP Tx out",
+            "range": true,
+            "refId": "B",
+            "step": 240
+          }
+        ],
+        "title": "Netstat IP In / Out Octets",
+        "type": "timeseries"
+      },
+      {
+        "datasource": {
+          "type": "prometheus",
+          "uid": "${ds_prometheus}"
+        },
+        "description": "Rate of TCP segments sent and received per second, including data and control segments",
+        "fieldConfig": {
+          "defaults": {
+            "color": {
+              "mode": "palette-classic"
+            },
+            "custom": {
+              "axisBorderShow": false,
+              "axisCenteredZero": false,
+              "axisColorMode": "text",
+              "axisLabel": "out (-) / in (+)",
+              "axisPlacement": "auto",
+              "barAlignment": 0,
+              "barWidthFactor": 0.6,
+              "drawStyle": "line",
+              "fillOpacity": 20,
+              "gradientMode": "none",
+              "hideFrom": {
+                "legend": false,
+                "tooltip": false,
+                "viz": false
+              },
+              "insertNulls": false,
+              "lineInterpolation": "linear",
+              "lineWidth": 1,
+              "pointSize": 5,
+              "scaleDistribution": {
+                "type": "linear"
+              },
+              "showPoints": "never",
+              "showValues": false,
+              "spanNulls": false,
+              "stacking": {
+                "group": "A",
+                "mode": "none"
+              },
+              "thresholdsStyle": {
+                "mode": "off"
+              }
+            },
+            "links": [],
+            "mappings": [],
+            "thresholds": {
+              "mode": "absolute",
+              "steps": [
+                {
+                  "color": "green",
+                  "value": 0
+                },
+                {
+                  "color": "red",
+                  "value": 80
+                }
+              ]
+            },
+            "unit": "pps"
+          },
+          "overrides": [
+            {
+              "matcher": {
+                "id": "byRegexp",
+                "options": "/.*out.*/"
+              },
+              "properties": [
+                {
+                  "id": "custom.transform",
+                  "value": "negative-Y"
+                }
+              ]
+            },
+            {
+              "matcher": {
+                "id": "byRegexp",
+                "options": "/.*Snd.*/"
+              },
+              "properties": []
+            }
+          ]
+        },
+        "gridPos": {
+          "h": 10,
+          "w": 12,
+          "x": 12,
+          "y": 33
+        },
+        "id": 299,
+        "options": {
+          "legend": {
+            "calcs": [
+              "min",
+              "mean",
+              "max"
+            ],
+            "displayMode": "table",
+            "placement": "bottom",
+            "showLegend": true
+          },
+          "tooltip": {
+            "hideZeros": false,
+            "mode": "multi",
+            "sort": "none"
+          }
+        },
+        "pluginVersion": "12.3.2",
+        "targets": [
+          {
+            "editorMode": "code",
+            "expr": "irate(node_netstat_Tcp_InSegs{instance=\"$node\",job=\"$job\"}[$__rate_interval])",
+            "format": "time_series",
+            "instant": false,
+            "interval": "",
+            "legendFormat": "TCP Rx in",
+            "refId": "A",
+            "step": 240
+          },
+          {
+            "editorMode": "code",
+            "expr": "irate(node_netstat_Tcp_OutSegs{instance=\"$node\",job=\"$job\"}[$__rate_interval])",
+            "format": "time_series",
+            "interval": "",
+            "legendFormat": "TCP Tx out",
+            "range": true,
+            "refId": "B",
+            "step": 240
+          }
+        ],
+        "title": "TCP In / Out",
+        "type": "timeseries"
+      },
+      {
+        "datasource": {
+          "type": "prometheus",
+          "uid": "${ds_prometheus}"
+        },
+        "description": "Rate of UDP datagrams sent and received per second, based on /proc/net/netstat",
+        "fieldConfig": {
+          "defaults": {
+            "color": {
+              "mode": "palette-classic"
+            },
+            "custom": {
+              "axisBorderShow": false,
+              "axisCenteredZero": false,
+              "axisColorMode": "text",
+              "axisLabel": "out (-) / in (+)",
+              "axisPlacement": "auto",
+              "barAlignment": 0,
+              "barWidthFactor": 0.6,
+              "drawStyle": "line",
+              "fillOpacity": 20,
+              "gradientMode": "none",
+              "hideFrom": {
+                "legend": false,
+                "tooltip": false,
+                "viz": false
+              },
+              "insertNulls": false,
+              "lineInterpolation": "linear",
+              "lineWidth": 1,
+              "pointSize": 5,
+              "scaleDistribution": {
+                "type": "linear"
+              },
+              "showPoints": "never",
+              "showValues": false,
+              "spanNulls": false,
+              "stacking": {
+                "group": "A",
+                "mode": "none"
+              },
+              "thresholdsStyle": {
+                "mode": "off"
+              }
+            },
+            "links": [],
+            "mappings": [],
+            "thresholds": {
+              "mode": "absolute",
+              "steps": [
+                {
+                  "color": "green",
+                  "value": 0
+                }
+              ]
+            },
+            "unit": "pps"
+          },
+          "overrides": [
+            {
+              "matcher": {
+                "id": "byRegexp",
+                "options": "/.*out.*/"
+              },
+              "properties": [
+                {
+                  "id": "custom.transform",
+                  "value": "negative-Y"
+                }
+              ]
+            }
+          ]
+        },
+        "gridPos": {
+          "h": 10,
+          "w": 12,
+          "x": 0,
+          "y": 43
+        },
+        "id": 55,
+        "options": {
+          "legend": {
+            "calcs": [
+              "min",
+              "mean",
+              "max"
+            ],
+            "displayMode": "table",
+            "placement": "bottom",
+            "showLegend": true
+          },
+          "tooltip": {
+            "hideZeros": false,
+            "mode": "multi",
+            "sort": "none"
+          }
+        },
+        "pluginVersion": "12.3.2",
+        "targets": [
+          {
+            "editorMode": "code",
+            "expr": "irate(node_netstat_Udp_InDatagrams{instance=\"$node\",job=\"$job\"}[$__rate_interval])",
+            "format": "time_series",
+            "interval": "",
+            "legendFormat": "UDP Rx in",
+            "range": true,
+            "refId": "A",
+            "step": 240
+          },
+          {
+            "editorMode": "code",
+            "expr": "irate(node_netstat_Udp_OutDatagrams{instance=\"$node\",job=\"$job\"}[$__rate_interval])",
+            "format": "time_series",
+            "interval": "",
+            "legendFormat": "UDP Tx out",
+            "range": true,
+            "refId": "B",
+            "step": 240
+          }
+        ],
+        "title": "UDP In / Out",
+        "type": "timeseries"
+      },
+      {
+        "datasource": {
+          "type": "prometheus",
+          "uid": "${ds_prometheus}"
+        },
+        "description": "Number of ICMP messages sent and received per second, including error and control messages",
+        "fieldConfig": {
+          "defaults": {
+            "color": {
+              "mode": "palette-classic"
+            },
+            "custom": {
+              "axisBorderShow": false,
+              "axisCenteredZero": false,
+              "axisColorMode": "text",
+              "axisLabel": "out (-) / in (+)",
+              "axisPlacement": "auto",
+              "barAlignment": 0,
+              "barWidthFactor": 0.6,
+              "drawStyle": "line",
+              "fillOpacity": 20,
+              "gradientMode": "none",
+              "hideFrom": {
+                "legend": false,
+                "tooltip": false,
+                "viz": false
+              },
+              "insertNulls": false,
+              "lineInterpolation": "linear",
+              "lineWidth": 1,
+              "pointSize": 5,
+              "scaleDistribution": {
+                "type": "linear"
+              },
+              "showPoints": "never",
+              "showValues": false,
+              "spanNulls": false,
+              "stacking": {
+                "group": "A",
+                "mode": "none"
+              },
+              "thresholdsStyle": {
+                "mode": "off"
+              }
+            },
+            "links": [],
+            "mappings": [],
+            "thresholds": {
+              "mode": "absolute",
+              "steps": [
+                {
+                  "color": "green",
+                  "value": 0
+                },
+                {
+                  "color": "red",
+                  "value": 80
+                }
+              ]
+            },
+            "unit": "pps"
+          },
+          "overrides": [
+            {
+              "matcher": {
+                "id": "byRegexp",
+                "options": "/.*out.*/"
+              },
+              "properties": [
+                {
+                  "id": "custom.transform",
+                  "value": "negative-Y"
+                }
+              ]
+            }
+          ]
+        },
+        "gridPos": {
+          "h": 10,
+          "w": 12,
+          "x": 12,
+          "y": 43
+        },
+        "id": 115,
+        "options": {
+          "legend": {
+            "calcs": [
+              "min",
+              "mean",
+              "max"
+            ],
+            "displayMode": "table",
+            "placement": "bottom",
+            "showLegend": true
+          },
+          "tooltip": {
+            "hideZeros": false,
+            "mode": "multi",
+            "sort": "none"
+          }
+        },
+        "pluginVersion": "12.3.2",
+        "targets": [
+          {
+            "editorMode": "code",
+            "expr": "irate(node_netstat_Icmp_InMsgs{instance=\"$node\",job=\"$job\"}[$__rate_interval])",
+            "format": "time_series",
+            "interval": "",
+            "legendFormat": "ICMP Rx in",
+            "range": true,
+            "refId": "A",
+            "step": 240
+          },
+          {
+            "editorMode": "code",
+            "expr": "irate(node_netstat_Icmp_OutMsgs{instance=\"$node\",job=\"$job\"}[$__rate_interval])",
+            "format": "time_series",
+            "interval": "",
+            "legendFormat": "ICMP Tx out",
+            "range": true,
+            "refId": "B",
+            "step": 240
+          }
+        ],
+        "title": "ICMP In / Out",
+        "type": "timeseries"
+      },
+      {
+        "datasource": {
+          "type": "prometheus",
+          "uid": "${ds_prometheus}"
+        },
+        "description": "Tracks various TCP error and congestion-related events, including retransmissions, timeouts, dropped connections, and buffer issues",
+        "fieldConfig": {
+          "defaults": {
+            "color": {
+              "mode": "palette-classic"
+            },
+            "custom": {
+              "axisBorderShow": false,
+              "axisCenteredZero": false,
+              "axisColorMode": "text",
+              "axisLabel": "",
+              "axisPlacement": "auto",
+              "barAlignment": 0,
+              "barWidthFactor": 0.6,
+              "drawStyle": "line",
+              "fillOpacity": 20,
+              "gradientMode": "none",
+              "hideFrom": {
+                "legend": false,
+                "tooltip": false,
+                "viz": false
+              },
+              "insertNulls": false,
+              "lineInterpolation": "linear",
+              "lineWidth": 1,
+              "pointSize": 5,
+              "scaleDistribution": {
+                "type": "linear"
+              },
+              "showPoints": "never",
+              "showValues": false,
+              "spanNulls": false,
+              "stacking": {
+                "group": "A",
+                "mode": "none"
+              },
+              "thresholdsStyle": {
+                "mode": "off"
+              }
+            },
+            "links": [],
+            "mappings": [],
+            "min": 0,
+            "thresholds": {
+              "mode": "absolute",
+              "steps": [
+                {
+                  "color": "green",
+                  "value": 0
+                }
+              ]
+            },
+            "unit": "pps"
+          },
+          "overrides": []
+        },
+        "gridPos": {
+          "h": 10,
+          "w": 12,
+          "x": 0,
+          "y": 53
+        },
+        "id": 104,
+        "options": {
+          "legend": {
+            "calcs": [
+              "min",
+              "mean",
+              "max"
+            ],
+            "displayMode": "table",
+            "placement": "bottom",
+            "showLegend": true
+          },
+          "tooltip": {
+            "hideZeros": false,
+            "mode": "multi",
+            "sort": "none"
+          }
+        },
+        "pluginVersion": "12.3.2",
+        "targets": [
+          {
+            "editorMode": "code",
+            "expr": "irate(node_netstat_TcpExt_ListenOverflows{instance=\"$node\",job=\"$job\"}[$__rate_interval])",
+            "format": "time_series",
+            "interval": "",
+            "legendFormat": "Listen Overflows",
+            "range": true,
+            "refId": "A",
+            "step": 240
+          },
+          {
+            "editorMode": "code",
+            "expr": "irate(node_netstat_TcpExt_ListenDrops{instance=\"$node\",job=\"$job\"}[$__rate_interval])",
+            "format": "time_series",
+            "interval": "",
+            "legendFormat": "Listen Drops",
+            "range": true,
+            "refId": "B",
+            "step": 240
+          },
+          {
+            "editorMode": "code",
+            "expr": "irate(node_netstat_TcpExt_TCPSynRetrans{instance=\"$node\",job=\"$job\"}[$__rate_interval])",
+            "format": "time_series",
+            "interval": "",
+            "legendFormat": "SYN Retransmits",
+            "range": true,
+            "refId": "C",
+            "step": 240
+          },
+          {
+            "editorMode": "code",
+            "expr": "irate(node_netstat_Tcp_RetransSegs{instance=\"$node\",job=\"$job\"}[$__rate_interval])",
+            "interval": "",
+            "legendFormat": "Segment Retransmits",
+            "range": true,
+            "refId": "D"
+          },
+          {
+            "editorMode": "code",
+            "expr": "irate(node_netstat_Tcp_InErrs{instance=\"$node\",job=\"$job\"}[$__rate_interval])",
+            "interval": "",
+            "legendFormat": "Receive Errors",
+            "range": true,
+            "refId": "E"
+          },
+          {
+            "editorMode": "code",
+            "expr": "irate(node_netstat_Tcp_OutRsts{instance=\"$node\",job=\"$job\"}[$__rate_interval])",
+            "interval": "",
+            "legendFormat": "RST Sent",
+            "range": true,
+            "refId": "F"
+          },
+          {
+            "editorMode": "code",
+            "expr": "irate(node_netstat_TcpExt_TCPRcvQDrop{instance=\"$node\",job=\"$job\"}[$__rate_interval])",
+            "interval": "",
+            "legendFormat": "Receive Queue Drops",
+            "range": true,
+            "refId": "G"
+          },
+          {
+            "editorMode": "code",
+            "expr": "irate(node_netstat_TcpExt_TCPOFOQueue{instance=\"$node\",job=\"$job\"}[$__rate_interval])",
+            "interval": "",
+            "legendFormat": "Out-of-order Queued",
+            "range": true,
+            "refId": "H"
+          },
+          {
+            "editorMode": "code",
+            "expr": "irate(node_netstat_TcpExt_TCPTimeouts{instance=\"$node\",job=\"$job\"}[$__rate_interval])",
+            "interval": "",
+            "legendFormat": "TCP Timeouts",
+            "range": true,
+            "refId": "I"
+          }
+        ],
+        "title": "TCP Errors",
+        "type": "timeseries"
+      },
+      {
+        "datasource": {
+          "type": "prometheus",
+          "uid": "${ds_prometheus}"
+        },
+        "description": "Rate of UDP and UDPLite datagram delivery errors, including missing listeners, buffer overflows, and protocol-specific issues",
+        "fieldConfig": {
+          "defaults": {
+            "color": {
+              "mode": "palette-classic"
+            },
+            "custom": {
+              "axisBorderShow": false,
+              "axisCenteredZero": false,
+              "axisColorMode": "text",
+              "axisLabel": "",
+              "axisPlacement": "auto",
+              "barAlignment": 0,
+              "barWidthFactor": 0.6,
+              "drawStyle": "line",
+              "fillOpacity": 20,
+              "gradientMode": "none",
+              "hideFrom": {
+                "legend": false,
+                "tooltip": false,
+                "viz": false
+              },
+              "insertNulls": false,
+              "lineInterpolation": "linear",
+              "lineWidth": 1,
+              "pointSize": 5,
+              "scaleDistribution": {
+                "type": "linear"
+              },
+              "showPoints": "never",
+              "showValues": false,
+              "spanNulls": false,
+              "stacking": {
+                "group": "A",
+                "mode": "none"
+              },
+              "thresholdsStyle": {
+                "mode": "off"
+              }
+            },
+            "links": [],
+            "mappings": [],
+            "thresholds": {
+              "mode": "absolute",
+              "steps": [
+                {
+                  "color": "green",
+                  "value": 0
+                },
+                {
+                  "color": "red",
+                  "value": 80
+                }
+              ]
+            },
+            "unit": "pps"
+          },
+          "overrides": []
+        },
+        "gridPos": {
+          "h": 10,
+          "w": 12,
+          "x": 12,
+          "y": 53
+        },
+        "id": 109,
+        "options": {
+          "legend": {
+            "calcs": [
+              "min",
+              "mean",
+              "max"
+            ],
+            "displayMode": "table",
+            "placement": "bottom",
+            "showLegend": true
+          },
+          "tooltip": {
+            "hideZeros": false,
+            "mode": "multi",
+            "sort": "none"
+          }
+        },
+        "pluginVersion": "12.3.2",
+        "targets": [
+          {
+            "editorMode": "code",
+            "expr": "irate(node_netstat_Udp_InErrors{instance=\"$node\",job=\"$job\"}[$__rate_interval])",
+            "format": "time_series",
+            "interval": "",
+            "legendFormat": "UDP Rx in Errors",
+            "range": true,
+            "refId": "A",
+            "step": 240
+          },
+          {
+            "editorMode": "code",
+            "expr": "irate(node_netstat_Udp_NoPorts{instance=\"$node\",job=\"$job\"}[$__rate_interval])",
+            "format": "time_series",
+            "interval": "",
+            "legendFormat": "UDP No Listener",
+            "range": true,
+            "refId": "B",
+            "step": 240
+          },
+          {
+            "editorMode": "code",
+            "expr": "irate(node_netstat_UdpLite_InErrors{instance=\"$node\",job=\"$job\"}[$__rate_interval])",
+            "interval": "",
+            "legendFormat": "UDPLite Rx in Errors",
+            "range": true,
+            "refId": "C"
+          },
+          {
+            "editorMode": "code",
+            "expr": "irate(node_netstat_Udp_RcvbufErrors{instance=\"$node\",job=\"$job\"}[$__rate_interval])",
+            "format": "time_series",
+            "interval": "",
+            "legendFormat": "UDP Rx in Buffer Errors",
+            "range": true,
+            "refId": "D",
+            "step": 240
+          },
+          {
+            "editorMode": "code",
+            "expr": "irate(node_netstat_Udp_SndbufErrors{instance=\"$node\",job=\"$job\"}[$__rate_interval])",
+            "format": "time_series",
+            "interval": "",
+            "legendFormat": "UDP Tx out Buffer Errors",
+            "range": true,
+            "refId": "E",
+            "step": 240
+          }
+        ],
+        "title": "UDP Errors",
+        "type": "timeseries"
+      },
+      {
+        "datasource": {
+          "type": "prometheus",
+          "uid": "${ds_prometheus}"
+        },
+        "description": "Rate of incoming ICMP messages that contained protocol-specific errors, such as bad checksums or invalid lengths",
+        "fieldConfig": {
+          "defaults": {
+            "color": {
+              "mode": "palette-classic"
+            },
+            "custom": {
+              "axisBorderShow": false,
+              "axisCenteredZero": false,
+              "axisColorMode": "text",
+              "axisLabel": "out (-) / in (+)",
+              "axisPlacement": "auto",
+              "barAlignment": 0,
+              "barWidthFactor": 0.6,
+              "drawStyle": "line",
+              "fillOpacity": 20,
+              "gradientMode": "none",
+              "hideFrom": {
+                "legend": false,
+                "tooltip": false,
+                "viz": false
+              },
+              "insertNulls": false,
+              "lineInterpolation": "linear",
+              "lineWidth": 1,
+              "pointSize": 5,
+              "scaleDistribution": {
+                "type": "linear"
+              },
+              "showPoints": "never",
+              "showValues": false,
+              "spanNulls": false,
+              "stacking": {
+                "group": "A",
+                "mode": "none"
+              },
+              "thresholdsStyle": {
+                "mode": "off"
+              }
+            },
+            "links": [],
+            "mappings": [],
+            "thresholds": {
+              "mode": "absolute",
+              "steps": [
+                {
+                  "color": "green",
+                  "value": 0
+                }
+              ]
+            },
+            "unit": "pps"
+          },
+          "overrides": [
+            {
+              "matcher": {
+                "id": "byRegexp",
+                "options": "/.*out.*/"
+              },
+              "properties": [
+                {
+                  "id": "custom.transform",
+                  "value": "negative-Y"
+                }
+              ]
+            }
+          ]
+        },
+        "gridPos": {
+          "h": 10,
+          "w": 12,
+          "x": 0,
+          "y": 63
+        },
+        "id": 50,
+        "options": {
+          "legend": {
+            "calcs": [
+              "min",
+              "mean",
+              "max"
+            ],
+            "displayMode": "table",
+            "placement": "bottom",
+            "showLegend": true
+          },
+          "tooltip": {
+            "hideZeros": false,
+            "mode": "multi",
+            "sort": "none"
+          }
+        },
+        "pluginVersion": "12.3.2",
+        "targets": [
+          {
+            "editorMode": "code",
+            "expr": "irate(node_netstat_Icmp_InErrors{instance=\"$node\",job=\"$job\"}[$__rate_interval])",
+            "format": "time_series",
+            "interval": "",
+            "legendFormat": "ICMP Rx In",
+            "range": true,
+            "refId": "A",
+            "step": 240
+          }
+        ],
+        "title": "ICMP Errors",
+        "type": "timeseries"
+      },
+      {
+        "datasource": {
+          "type": "prometheus",
+          "uid": "${ds_prometheus}"
+        },
+        "description": "Rate of TCP SYN cookies sent, validated, and failed. These are used to protect against SYN flood attacks and manage TCP handshake resources under load",
+        "fieldConfig": {
+          "defaults": {
+            "color": {
+              "mode": "palette-classic"
+            },
+            "custom": {
+              "axisBorderShow": false,
+              "axisCenteredZero": false,
+              "axisColorMode": "text",
+              "axisLabel": "",
+              "axisPlacement": "auto",
+              "barAlignment": 0,
+              "barWidthFactor": 0.6,
+              "drawStyle": "line",
+              "fillOpacity": 20,
+              "gradientMode": "none",
+              "hideFrom": {
+                "legend": false,
+                "tooltip": false,
+                "viz": false
+              },
+              "insertNulls": false,
+              "lineInterpolation": "linear",
+              "lineWidth": 1,
+              "pointSize": 5,
+              "scaleDistribution": {
+                "type": "linear"
+              },
+              "showPoints": "never",
+              "showValues": false,
+              "spanNulls": false,
+              "stacking": {
+                "group": "A",
+                "mode": "none"
+              },
+              "thresholdsStyle": {
+                "mode": "off"
+              }
+            },
+            "links": [],
+            "mappings": [],
+            "thresholds": {
+              "mode": "absolute",
+              "steps": [
+                {
+                  "color": "green",
+                  "value": 0
+                }
+              ]
+            },
+            "unit": "eps"
+          },
+          "overrides": [
+            {
+              "matcher": {
+                "id": "byRegexp",
+                "options": "/.*Failed.*/"
+              },
+              "properties": [
+                {
+                  "id": "color",
+                  "value": {
+                    "fixedColor": "dark-red",
+                    "mode": "fixed"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "gridPos": {
+          "h": 10,
+          "w": 12,
+          "x": 12,
+          "y": 63
+        },
+        "id": 91,
+        "options": {
+          "legend": {
+            "calcs": [
+              "min",
+              "mean",
+              "max"
+            ],
+            "displayMode": "table",
+            "placement": "bottom",
+            "showLegend": true
+          },
+          "tooltip": {
+            "hideZeros": false,
+            "mode": "multi",
+            "sort": "none"
+          }
+        },
+        "pluginVersion": "12.3.2",
+        "targets": [
+          {
+            "editorMode": "code",
+            "expr": "irate(node_netstat_TcpExt_SyncookiesFailed{instance=\"$node\",job=\"$job\"}[$__rate_interval])",
+            "format": "time_series",
+            "interval": "",
+            "legendFormat": "SYN Cookies Failed",
+            "range": true,
+            "refId": "A",
+            "step": 240
+          },
+          {
+            "editorMode": "code",
+            "expr": "irate(node_netstat_TcpExt_SyncookiesRecv{instance=\"$node\",job=\"$job\"}[$__rate_interval])",
+            "format": "time_series",
+            "interval": "",
+            "legendFormat": "SYN Cookies Validated",
+            "range": true,
+            "refId": "B",
+            "step": 240
+          },
+          {
+            "editorMode": "code",
+            "expr": "irate(node_netstat_TcpExt_SyncookiesSent{instance=\"$node\",job=\"$job\"}[$__rate_interval])",
+            "format": "time_series",
+            "interval": "",
+            "legendFormat": "SYN Cookies Sent",
+            "range": true,
+            "refId": "C",
+            "step": 240
+          }
+        ],
+        "title": "TCP SynCookie",
+        "type": "timeseries"
+      },
+      {
+        "datasource": {
+          "type": "prometheus",
+          "uid": "${ds_prometheus}"
+        },
+        "description": "Number of currently established TCP connections and the system's max supported limit. On Linux, MaxConn may return -1 to indicate a dynamic/unlimited configuration",
+        "fieldConfig": {
+          "defaults": {
+            "color": {
+              "mode": "palette-classic"
+            },
+            "custom": {
+              "axisBorderShow": false,
+              "axisCenteredZero": false,
+              "axisColorMode": "text",
+              "axisLabel": "",
+              "axisPlacement": "auto",
+              "barAlignment": 0,
+              "barWidthFactor": 0.6,
+              "drawStyle": "line",
+              "fillOpacity": 20,
+              "gradientMode": "none",
+              "hideFrom": {
+                "legend": false,
+                "tooltip": false,
+                "viz": false
+              },
+              "insertNulls": false,
+              "lineInterpolation": "linear",
+              "lineWidth": 1,
+              "pointSize": 5,
+              "scaleDistribution": {
+                "type": "linear"
+              },
+              "showPoints": "never",
+              "showValues": false,
+              "spanNulls": false,
+              "stacking": {
+                "group": "A",
+                "mode": "none"
+              },
+              "thresholdsStyle": {
+                "mode": "off"
+              }
+            },
+            "links": [],
+            "mappings": [],
+            "min": 0,
+            "thresholds": {
+              "mode": "absolute",
+              "steps": [
+                {
+                  "color": "green",
+                  "value": 0
+                }
+              ]
+            },
+            "unit": "short"
+          },
+          "overrides": [
+            {
+              "matcher": {
+                "id": "byRegexp",
+                "options": "/.*Max*./"
+              },
+              "properties": [
+                {
+                  "id": "color",
+                  "value": {
+                    "fixedColor": "#890F02",
+                    "mode": "fixed"
+                  }
+                },
+                {
+                  "id": "custom.fillOpacity",
+                  "value": 0
+                },
+                {
+                  "id": "custom.lineStyle",
+                  "value": {
+                    "dash": [
+                      10,
+                      10
+                    ],
+                    "fill": "dash"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "gridPos": {
+          "h": 10,
+          "w": 12,
+          "x": 0,
+          "y": 73
+        },
+        "id": 85,
+        "options": {
+          "legend": {
+            "calcs": [
+              "min",
+              "mean",
+              "max"
+            ],
+            "displayMode": "table",
+            "placement": "bottom",
+            "showLegend": true
+          },
+          "tooltip": {
+            "hideZeros": false,
+            "mode": "multi",
+            "sort": "none"
+          }
+        },
+        "pluginVersion": "12.3.2",
+        "targets": [
+          {
+            "editorMode": "code",
+            "expr": "node_netstat_Tcp_CurrEstab{instance=\"$node\",job=\"$job\"}",
+            "format": "time_series",
+            "interval": "",
+            "legendFormat": "Current Connections",
+            "range": true,
+            "refId": "A",
+            "step": 240
+          },
+          {
+            "editorMode": "code",
+            "expr": "node_netstat_Tcp_MaxConn{instance=\"$node\",job=\"$job\"}",
+            "format": "time_series",
+            "interval": "",
+            "legendFormat": "Max Connections",
+            "range": true,
+            "refId": "B",
+            "step": 240
+          }
+        ],
+        "title": "TCP Connections",
+        "type": "timeseries"
+      },
+      {
+        "datasource": {
+          "type": "prometheus",
+          "uid": "${ds_prometheus}"
+        },
+        "description": "Number of UDP packets currently queued in the receive (RX) and transmit (TX) buffers. A growing queue may indicate a bottleneck",
+        "fieldConfig": {
+          "defaults": {
+            "color": {
+              "mode": "palette-classic"
+            },
+            "custom": {
+              "axisBorderShow": false,
+              "axisCenteredZero": false,
+              "axisColorMode": "text",
+              "axisLabel": "",
+              "axisPlacement": "auto",
+              "barAlignment": 0,
+              "barWidthFactor": 0.6,
+              "drawStyle": "line",
+              "fillOpacity": 20,
+              "gradientMode": "none",
+              "hideFrom": {
+                "legend": false,
+                "tooltip": false,
+                "viz": false
+              },
+              "insertNulls": false,
+              "lineInterpolation": "linear",
+              "lineWidth": 1,
+              "pointSize": 5,
+              "scaleDistribution": {
+                "type": "linear"
+              },
+              "showPoints": "never",
+              "showValues": false,
+              "spanNulls": false,
+              "stacking": {
+                "group": "A",
+                "mode": "none"
+              },
+              "thresholdsStyle": {
+                "mode": "off"
+              }
+            },
+            "links": [],
+            "mappings": [],
+            "thresholds": {
+              "mode": "absolute",
+              "steps": [
+                {
+                  "color": "green",
+                  "value": 0
+                }
+              ]
+            },
+            "unit": "short"
+          },
+          "overrides": []
+        },
+        "gridPos": {
+          "h": 10,
+          "w": 12,
+          "x": 12,
+          "y": 73
+        },
+        "id": 337,
+        "options": {
+          "legend": {
+            "calcs": [
+              "min",
+              "mean",
+              "max"
+            ],
+            "displayMode": "table",
+            "placement": "bottom",
+            "showLegend": true
+          },
+          "tooltip": {
+            "hideZeros": false,
+            "mode": "multi",
+            "sort": "none"
+          }
+        },
+        "pluginVersion": "12.3.2",
+        "targets": [
+          {
+            "editorMode": "code",
+            "expr": "node_udp_queues{instance=\"$node\",job=\"$job\",ip=\"v4\",queue=\"rx\"}",
+            "format": "time_series",
+            "interval": "",
+            "legendFormat": "UDP Rx in Queue",
+            "range": true,
+            "refId": "A",
+            "step": 240
+          },
+          {
+            "editorMode": "code",
+            "expr": "node_udp_queues{instance=\"$node\",job=\"$job\",ip=\"v4\",queue=\"tx\"}",
+            "format": "time_series",
+            "interval": "",
+            "legendFormat": "UDP Tx out Queue",
+            "range": true,
+            "refId": "B",
+            "step": 240
+          }
+        ],
+        "title": "UDP Queue",
+        "type": "timeseries"
+      },
+      {
+        "datasource": {
+          "type": "prometheus",
+          "uid": "${ds_prometheus}"
+        },
+        "description": "Rate of TCP connection initiations per second. 'Active' opens are initiated by this host. 'Passive' opens are accepted from incoming connections",
+        "fieldConfig": {
+          "defaults": {
+            "color": {
+              "mode": "palette-classic"
+            },
+            "custom": {
+              "axisBorderShow": false,
+              "axisCenteredZero": false,
+              "axisColorMode": "text",
+              "axisLabel": "",
+              "axisPlacement": "auto",
+              "barAlignment": 0,
+              "barWidthFactor": 0.6,
+              "drawStyle": "line",
+              "fillOpacity": 20,
+              "gradientMode": "none",
+              "hideFrom": {
+                "legend": false,
+                "tooltip": false,
+                "viz": false
+              },
+              "insertNulls": false,
+              "lineInterpolation": "linear",
+              "lineWidth": 1,
+              "pointSize": 5,
+              "scaleDistribution": {
+                "type": "linear"
+              },
+              "showPoints": "never",
+              "showValues": false,
+              "spanNulls": false,
+              "stacking": {
+                "group": "A",
+                "mode": "none"
+              },
+              "thresholdsStyle": {
+                "mode": "off"
+              }
+            },
+            "links": [],
+            "mappings": [],
+            "min": 0,
+            "thresholds": {
+              "mode": "absolute",
+              "steps": [
+                {
+                  "color": "green",
+                  "value": 0
+                }
+              ]
+            },
+            "unit": "eps"
+          },
+          "overrides": []
+        },
+        "gridPos": {
+          "h": 10,
+          "w": 12,
+          "x": 0,
+          "y": 83
+        },
+        "id": 82,
+        "options": {
+          "legend": {
+            "calcs": [
+              "min",
+              "mean",
+              "max"
+            ],
+            "displayMode": "table",
+            "placement": "bottom",
+            "showLegend": true
+          },
+          "tooltip": {
+            "hideZeros": false,
+            "mode": "multi",
+            "sort": "none"
+          }
+        },
+        "pluginVersion": "12.3.2",
+        "targets": [
+          {
+            "editorMode": "code",
+            "expr": "irate(node_netstat_Tcp_ActiveOpens{instance=\"$node\",job=\"$job\"}[$__rate_interval])",
+            "format": "time_series",
+            "interval": "",
+            "legendFormat": "Active Opens",
+            "range": true,
+            "refId": "A",
+            "step": 240
+          },
+          {
+            "editorMode": "code",
+            "expr": "irate(node_netstat_Tcp_PassiveOpens{instance=\"$node\",job=\"$job\"}[$__rate_interval])",
+            "format": "time_series",
+            "interval": "",
+            "legendFormat": "Passive Opens",
+            "range": true,
+            "refId": "B",
+            "step": 240
+          }
+        ],
+        "title": "TCP Direct Transition",
+        "type": "timeseries"
       },
       {
         "collapsed": true,
@@ -15052,7 +14979,7 @@
           "h": 1,
           "w": 24,
           "x": 0,
-          "y": 33
+          "y": 93
         },
         "id": 279,
         "panels": [
@@ -15122,7 +15049,7 @@
               "h": 10,
               "w": 12,
               "x": 0,
-              "y": 164
+              "y": 704
             },
             "id": 40,
             "options": {
@@ -15220,7 +15147,7 @@
               "h": 10,
               "w": 12,
               "x": 12,
-              "y": 164
+              "y": 704
             },
             "id": 308,
             "options": {
@@ -15361,7 +15288,7 @@
                       "id": "custom.hideFrom",
                       "value": {
                         "legend": false,
-                        "tooltip": false,
+                        "tooltip": true,
                         "viz": true
                       }
                     }
@@ -15373,7 +15300,7 @@
               "h": 10,
               "w": 10,
               "x": 0,
-              "y": 174
+              "y": 714
             },
             "id": 149,
             "options": {
@@ -15522,7 +15449,7 @@
                       "id": "custom.hideFrom",
                       "value": {
                         "legend": false,
-                        "tooltip": false,
+                        "tooltip": true,
                         "viz": true
                       }
                     }
@@ -15534,7 +15461,7 @@
               "h": 10,
               "w": 10,
               "x": 10,
-              "y": 174
+              "y": 714
             },
             "id": 64,
             "options": {
@@ -15615,7 +15542,7 @@
               "h": 10,
               "w": 4,
               "x": 20,
-              "y": 174
+              "y": 714
             },
             "id": 157,
             "options": {
@@ -15673,8 +15600,9 @@
         "type": "row"
       }
     ],
+    "preload": false,
     "refresh": "1m",
-    "schemaVersion": 41,
+    "schemaVersion": 42,
     "tags": [
       "linux"
     ],
@@ -15761,6 +15689,7 @@
     "timezone": "browser",
     "title": "Node Exporter Full",
     "uid": "rYdddlPWk",
-    "version": 1
+    "version": 2,
+    "weekStart": ""
   }
 }

@@ -1,8 +1,12 @@
 import os
 import requests
+import json
 from dotenv import load_dotenv
 
 load_dotenv()
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DASHBOARD_PATH = os.path.join(BASE_DIR, "..", "dashboards", "node-exporter.json")
 
 GRAFANA_URL = os.getenv("GRAFANA_URL")
 TOKEN = os.getenv("GRAFANA_API_TOKEN")
@@ -21,7 +25,7 @@ response = requests.get(url, headers=headers)
 if response.status_code == 200:
     data = response.json()
 
-    with open("../dashboards/node-exporter.json", "w") as f:
+    with open(DASHBOARD_PATH, "w") as f:
         import json
         json.dump(data, f, indent=2)
 
