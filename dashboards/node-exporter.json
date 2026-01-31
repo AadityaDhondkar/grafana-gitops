@@ -10,10 +10,10 @@
     "url": "/d/rYdddlPWk/node-exporter-full",
     "expires": "0001-01-01T00:00:00Z",
     "created": "2026-01-31T10:48:06Z",
-    "updated": "2026-01-31T14:04:14Z",
+    "updated": "2026-01-31T14:12:14Z",
     "updatedBy": "admin",
     "createdBy": "admin",
-    "version": 17,
+    "version": 18,
     "hasAcl": false,
     "isFolder": false,
     "apiVersion": "v0alpha1",
@@ -1676,7 +1676,7 @@
             "step": 240
           }
         ],
-        "title": "Disk Space Used Basic",
+        "title": "Disk Space",
         "type": "timeseries"
       },
       {
@@ -15693,7 +15693,7 @@
     "timezone": "browser",
     "title": "Node Exporter Full",
     "uid": "rYdddlPWk",
-    "version": 17,
+    "version": 18,
     "weekStart": ""
   }
 }
