@@ -10,10 +10,10 @@
     "url": "/d/rYdddlPWk/node-exporter-full",
     "expires": "0001-01-01T00:00:00Z",
     "created": "2026-01-31T10:48:06Z",
-    "updated": "2026-01-31T14:12:14Z",
+    "updated": "2026-01-31T12:01:59Z",
     "updatedBy": "admin",
     "createdBy": "admin",
-    "version": 18,
+    "version": 4,
     "hasAcl": false,
     "isFolder": false,
     "apiVersion": "v0alpha1",
@@ -1579,7 +1579,7 @@
             "step": 240
           }
         ],
-        "title": "Network Traffic",
+        "title": "Network Traffic Basic",
         "type": "timeseries"
       },
       {
@@ -1676,7 +1676,7 @@
             "step": 240
           }
         ],
-        "title": "Disk Space",
+        "title": "Disk Space Used Basic",
         "type": "timeseries"
       },
       {
@@ -15693,7 +15693,7 @@
     "timezone": "browser",
     "title": "Node Exporter Full",
     "uid": "rYdddlPWk",
-    "version": 18,
+    "version": 4,
     "weekStart": ""
   }
 }
