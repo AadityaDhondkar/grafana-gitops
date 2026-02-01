@@ -3,6 +3,7 @@ import os
 import sys
 import json
 import re
+import argparse
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_ROOT = os.path.join(BASE_DIR, "..")
@@ -21,11 +22,11 @@ def run(cmd, capture=False):
             )
         else:
             subprocess.run(cmd, cwd=PROJECT_ROOT, check=True)
-    except subprocess.CalledProcessError:
-        print(f"\nCommand failed: {' '.join(cmd)}")
+    except subprocess.CalledProcessError as e:
+        print(f"Command failed: {' '.join(cmd)}", file=sys.stderr)
         sys.exit(1)
     except Exception as e:
-        print(f"\nUnexpected error: {e}")
+        print(f"Unexpected error: {e}", file=sys.stderr)
         sys.exit(1)
 
 # ---------- GIT ----------
@@ -35,32 +36,51 @@ def get_commits():
         capture=True
     )
 
-    if result.returncode != 0:
-        print("Failed to read git history.")
-        sys.exit(1)
-
     commits = []
 
     for line in result.stdout.splitlines():
-        # line example: "88e7c73 v4 Dashboard update"
         parts = line.split(" ", 1)
         if len(parts) < 2:
             continue
 
-        commit_hash = parts[0]
-        message = parts[1]
+        commit_hash, message = parts
 
-        # keep only messages containing v<number>
-        if re.search(r'\bv\d+\b', message, re.IGNORECASE):
+        # Only keep dashboard versions like v1, v2, v10 etc
+        if re.search(r"\bv\d+\b", message, re.IGNORECASE):
             commits.append(f"{commit_hash} {message}")
-
-    if not commits:
-        print("No versioned dashboard commits found.")
-        sys.exit(1)
 
     return commits
 
-# ---------- INPUT ----------
+# ---------- DASHBOARD ----------
+def fetch_dashboard(commit):
+    result = run(
+        ["git", "show", f"{commit}:{DASHBOARD_FILE}"],
+        capture=True
+    )
+
+    if not result.stdout.strip():
+        print("Dashboard file not found in this commit.", file=sys.stderr)
+        sys.exit(1)
+
+    try:
+        json.loads(result.stdout)
+    except json.JSONDecodeError:
+        print("Invalid dashboard JSON in commit.", file=sys.stderr)
+        sys.exit(1)
+
+    with open(TEMP_FILE, "w") as f:
+        f.write(result.stdout)
+
+def apply_dashboard():
+    run(["python3", os.path.join("scripts", "apply_dashboard.py")])
+
+def apply_version(commit):
+    fetch_dashboard(commit)
+    final_path = os.path.join(PROJECT_ROOT, DASHBOARD_FILE)
+    os.replace(TEMP_FILE, final_path)
+    apply_dashboard()
+
+# ---------- CLI INTERACTIVE ----------
 def choose_commit(commits):
     print("\nAvailable Dashboard Versions:\n")
     for i, c in enumerate(commits):
@@ -68,68 +88,43 @@ def choose_commit(commits):
 
     try:
         choice = int(input("\nSelect version number: ")) - 1
-        if choice < 0 or choice >= len(commits):
-            raise ValueError
         return commits[choice].split()[0]
-    except ValueError:
-        print("Invalid selection. Exiting.")
+    except Exception:
+        print("Invalid selection.", file=sys.stderr)
         sys.exit(1)
 
-# ---------- FETCH ----------
-def fetch_dashboard(commit):
-    print(f"\nFetching dashboard from {commit}...")
-
-    result = run(
-        ["git", "show", f"{commit}:{DASHBOARD_FILE}"],
-        capture=True
-    )
-
-    if result.returncode != 0 or not result.stdout.strip():
-        print("Dashboard file not found in this version.")
-        sys.exit(1)
-
-    try:
-        json.loads(result.stdout)  # Validate JSON
-    except json.JSONDecodeError:
-        print("Corrupted dashboard JSON in this commit.")
-        sys.exit(1)
-
-    try:
-        with open(TEMP_FILE, "w") as f:
-            f.write(result.stdout)
-    except IOError:
-        print("Failed to write temporary dashboard file.")
-        sys.exit(1)
-
-# ---------- APPLY ----------
-def apply_dashboard():
-    print("Applying dashboard...")
-    run(["python3", os.path.join("scripts", "apply_dashboard.py")])
-
-# ---------- MAIN ----------
-def main():
+def interactive_mode():
     print("\n--- Grafana One-Click Rollback ---")
 
     commits = get_commits()
+    if not commits:
+        print("No versioned dashboard commits found.")
+        sys.exit(0)
+
     commit_id = choose_commit(commits)
-
-    fetch_dashboard(commit_id)
-
-    final_path = os.path.join(PROJECT_ROOT, DASHBOARD_FILE)
-
-    if not os.path.exists(TEMP_FILE):
-        print("Temporary dashboard file missing.")
-        sys.exit(1)
-
-    try:
-        os.replace(TEMP_FILE, final_path)
-    except IOError:
-        print("Failed to replace dashboard file.")
-        sys.exit(1)
-
-    apply_dashboard()
+    apply_version(commit_id)
 
     print("\nDashboard updated successfully.")
 
+# ---------- ENTRY POINT ----------
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser(description="Grafana GitOps Dashboard Manager")
+    parser.add_argument("--list", action="store_true", help="List dashboard versions")
+    parser.add_argument("--apply", type=str, help="Apply a dashboard version by commit hash")
+
+    args = parser.parse_args()
+
+    # Backend / API mode
+    if args.list:
+        commits = get_commits()
+        for c in commits:
+            print(c)
+        sys.exit(0)
+
+    if args.apply:
+        apply_version(args.apply)
+        print(f"Applied version {args.apply}")
+        sys.exit(0)
+
+    # CLI interactive fallback
+    interactive_mode()
