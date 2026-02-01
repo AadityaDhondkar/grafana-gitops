@@ -10,10 +10,10 @@
     "url": "/d/rYdddlPWk/node-exporter-full",
     "expires": "0001-01-01T00:00:00Z",
     "created": "2026-01-31T10:48:06Z",
-    "updated": "2026-02-01T08:33:12Z",
+    "updated": "2026-02-01T10:08:07Z",
     "updatedBy": "gitops-admin",
     "createdBy": "admin",
-    "version": 23,
+    "version": 26,
     "hasAcl": false,
     "isFolder": false,
     "apiVersion": "v0alpha1",
@@ -15693,7 +15693,7 @@
     "timezone": "browser",
     "title": "Node Exporter Full",
     "uid": "rYdddlPWk",
-    "version": 23,
+    "version": 26,
     "weekStart": ""
   }
 }
